@@ -15,6 +15,22 @@ import magister from "./svg/magister.svg";
 import student from "./svg/students.svg";
 import schema from "./svg/schema.svg";
 
+// news
+import news1 from "./unoptimized/news1.jpg";
+import news2 from "./unoptimized/news2.jpg";
+import news3 from "./png/news3.png";
+import news4 from "./png/news4.png";
+
+// partners
+import part1 from "./unoptimized/gov.png";
+import part2 from "./unoptimized/dtm.jpg";
+import part3 from "./unoptimized/oliy.jpg";
+import part4 from "./unoptimized/ziyo.png";
+
+
+// lobaratory
+import lobaratory from "./jpg/loborbg.jpg"
+
 export {
   mex,
   energy,
@@ -29,4 +45,13 @@ export {
   magister,
   student,
   schema,
+  news1,
+  news2,
+  news3,
+  news4,
+  part1,
+  part2,
+  part3,
+  part4,
+  lobaratory,
 };

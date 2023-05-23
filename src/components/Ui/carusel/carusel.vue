@@ -1,69 +1,50 @@
+<script setup lang="ts">
+import { ref } from "vue";
+import type { CarouselProps } from "ant-design-vue";
+import { useDataStore } from "@/stores/news";
+
+const { data } = useDataStore();
+const visible = ref<any>(false)
+//  const dotPosition = ref<CarouselProps["dotPosition"]>("top")
+</script>
+
 <template>
   <div class="bg">
-    <a-carousel :autoplay="true" easing="linear" dot-position="left">
-      <template>
+    <a-carousel
+      :autoplay="true"
+      easing="linear"
+      dot-position="left"
+      :loop="true"
+    >
+      <a-carousel-slide v-for="(silide, i) of data" :key="i">
         <div class="box">
           <div
             class="flex h-[400px] rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center"
           >
-            <h1 class="text-xl uppercase border-b-2 border-blue-500 my-10">
-              TOSHKENT DAVLAT TEXNIKA UNIVERSITETIDA
+            <h1
+              class="text-xl text-zinc-500 uppercase border-b-2 border-green-900 my-10"
+            >
+              {{ silide?.title }}
             </h1>
-            <p class="text-grenn font-bold border-blue-500 border-b-2 my-10">
-              TOSHKENT DAVLAT TEXNIKA UNIVERSITETIDA “OLIMA AYOLLARNING
-              YUTUQLARI VA INNOVATSION GʻOYALARI” MAVZUSIDA II – ILM FAN
-              FESTIVALI BO‘LIB O‘TDI
+            <p class="text-zinc-500 text-xl border-green-700 border-b-2 my-10">
+              {{ silide?.text?.slice(0, 100) }}
             </p>
           </div>
 
-          <div class="max-w-[600px] h-[400px] rounded-md h-11/12 bg-black">
-            <img
-              class="w-full h-full rounded-md"
-              src="../../../assets/static/jpg/banner1.jpg"
+          <div class="max-w-[700px] rounded-md h-[400px] bg-black">
+            <a-image
+               height="400px"
+              class="w-full h-[400px] rounded-md"
+              :src="silide?.img"
               alt="banner"
             />
           </div>
         </div>
-      </template>
-      <template>
-        <div class="box">
-          <div
-            class="flex h-[400px] rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center"
-          >
-            <h1 class="text-xl uppercase border-b-2 border-blue-500 my-10">
-              TOSHKENT DAVLAT TEXNIKA UNIVERSITETIDA
-            </h1>
-            <p class="text-grenn font-bold border-b-2 border-blue-500 my-10">
-              TOSHKENT DAVLAT TEXNIKA UNIVERSITETIDA “OLIMA AYOLLARNING
-              YUTUQLARI VA INNOVATSION GʻOYALARI” MAVZUSIDA II – ILM FAN
-              FESTIVALI BO‘LIB O‘TDI
-            </p>
-          </div>
-
-          <div class="max-w-[600px] h-[400px] rounded-md h-11/12 bg-black">
-            <img
-              class="w-full h-full rounded-md"
-              src="../../../assets/static/jpg/banner1.jpg"
-              alt="banner"
-            />
-          </div>
-        </div>
-      </template>
+      </a-carousel-slide>
     </a-carousel>
   </div>
 </template>
-<script lang="ts">
-import { defineComponent, ref } from "vue";
-import type { CarouselProps } from "ant-design-vue";
 
-export default defineComponent({
-  setup() {
-    return {
-      dotPosition: ref<CarouselProps["dotPosition"]>("top"),
-    };
-  },
-});
-</script>
 <style scoped>
 /* For demo */
 .ant-carousel :deep(.slick-slide) {

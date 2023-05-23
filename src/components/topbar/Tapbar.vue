@@ -10,10 +10,10 @@ const treeLine = ref(true);
       <RouterLink to="/">
         <img src="../../assets/static/png/logo.jpg" alt="logotip" />
       </RouterLink>
-      <h1 class="uppercase">Toshkent davlat Texnika universiteti</h1>
+      <h1 class="uppercase ">Toshkent davlat Texnika universiteti</h1>
     </div>
 
-    <div class="topbar__title">Ilmiy Faoliyat</div>
+    <div class="topbar__title ">Ilmiy Faoliyat</div>
 
     <div class="topbar__togglebar">
       <a-switch

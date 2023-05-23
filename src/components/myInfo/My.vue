@@ -1,0 +1,42 @@
+<template>
+  <div
+    class="w-full flex bg-green-600 h-[60px] items-center justify-evenly flex-wrap"
+  >
+    <li class="text-xl list-none text-white">jasdev production</li>
+    <a
+      target="_blank"
+      class="text-white text-xl hover:text-gray-900"
+      href="https://www.jasdev.uz"
+      >jasdev.uz</a
+    >
+    <a
+      target="_blank"
+      href="https://www.linkedin.com/in/jasurbek-turgunov-157b48235/"
+    >
+      <LinkedinOutlined class="icon" />
+    </a>
+    <a target="_blank" href="https://www.instagram.com/">
+      <InstagramOutlined class="icon" />
+    </a>
+    <a target="_blank" href="https://t.me/jasurbekitblog">
+      <SendOutlined class="icon" />
+    </a>
+  </div>
+</template>
+
+<script setup lang="ts">
+import {
+  LinkedinOutlined,
+  InstagramOutlined,
+  SendOutlined,
+} from "@ant-design/icons-vue";
+</script>
+
+<style scoped>
+.icon {
+  color: white;
+  font-size: 40px;
+  border: none;
+  @apply hover:text-gray-700 cursor-pointer transform ease-in-out duration-500;
+}
+</style>
