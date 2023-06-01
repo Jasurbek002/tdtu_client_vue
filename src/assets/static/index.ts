@@ -31,6 +31,10 @@ import part4 from "./unoptimized/ziyo.png";
 // lobaratory
 import lobaratory from "./jpg/loborbg.jpg"
 
+// thema icon 
+import sun from "./svg/sun.svg"
+import moon from "./svg/moon.svg"
+
 export {
   mex,
   energy,
@@ -54,4 +58,6 @@ export {
   part3,
   part4,
   lobaratory,
+  sun,
+  moon
 };

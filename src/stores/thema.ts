@@ -1,14 +1,15 @@
 import { defineStore } from "pinia";
-import { news1, news2, news3, news4 } from "@/assets/static";
-export const useDataStore = defineStore("dataStore", {
+export const useThemaStore = defineStore("themaStore", {
   state: () => ({
     thema:false
   }),
   getters: {
-  
+   getThema:state => state.thema
   },
 
   actions: {
-  
+   setThmea(){
+     this.thema = !this.thema
+   }
   },
 });

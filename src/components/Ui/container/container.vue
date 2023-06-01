@@ -1,13 +1,17 @@
+<script setup lang="ts">
+import { useThemaStore } from '@/stores/thema';
+const store = useThemaStore()
+</script>
 <template>
   <div class="container">
-    <div class="banner"></div>
+    <div :class="store.getThema ? 'banner' : 'banner_dark'"></div>
     <slot />
   </div>
 </template>
 
 <style scoped>
 .container {
-  @apply max-w-[2400px] mx-auto relative;
+  @apply max-w-[2400px] mx-auto relative ;
 }
 .banner{
   @apply w-full min-h-[100vh] mx-auto;
@@ -15,5 +19,8 @@
   background-repeat: no-repeat;
   background-size:100% 100%;
   position:fixed;
+}
+.banner_dark{
+  @apply w-full min-h-[100vh] mx-auto bg-black fixed
 }
 </style>

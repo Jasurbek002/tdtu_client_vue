@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { part1, part2, part3, part4 } from "@/assets/static";
+import { useThemaStore } from "@/stores/thema";
+const store = useThemaStore()
 </script>
 <template>
-  <div class="logos" ref="logos">
+  <div :class="`logos ${store.getThema ? 'bg-white' : 'bg-slate-700'}`" ref="logos">
     <div class="logos-slide" ref="logos-slide">
     <p>Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika universitetning innovatsion muhitini rivojlantirish modelini ishlab chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar: f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi</p>
     </div>
@@ -33,7 +34,7 @@ import { part1, part2, part3, part4 } from "@/assets/static";
 .logos {
   overflow: hidden;
   padding: 10px 0;
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255); */
 
   display: flex;
   position: relative;

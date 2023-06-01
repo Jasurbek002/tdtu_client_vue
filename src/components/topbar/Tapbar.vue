@@ -1,10 +1,23 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const treeLine = ref(true);
+import { ref, watch } from "vue";
+import type { SelectProps } from "ant-design-vue";
+import { useI18n } from "vue-i18n";
+import { GlobalOutlined } from "@ant-design/icons-vue";
+import { sun, moon } from "@/assets/static/index";
+import { useThemaStore } from "@/stores/thema";
+const { t, locale } = useI18n();
+const store = useThemaStore();
+const options = ref<SelectProps["options"]>([
+  { value: "uz", label: "uz" },
+  { value: "en", label: "en" },
+]);
+const changeLanguage = (lang: string) => {
+  locale.value = lang;
+};
 </script>
 
 <template>
-  <header class="topbar">
+  <header :class="`topbar ${store.getThema ? 'bg-slate-100': 'bg-black'}`">
     <div class="topbar__logo">
       <RouterLink to="/">
         <img
@@ -20,29 +33,33 @@ const treeLine = ref(true);
           alt="flag"
         />
       </div>
-      <h1 class="uppercase">Toshkent davlat Texnika universiteti</h1>
+      <h1 class="uppercase">{{ t("title") }}</h1>
     </div>
 
-    <div class="topbar__title">Ilmiy Faoliyat</div>
+    <div class="topbar__title">{{ t("text") }}</div>
 
     <div class="topbar__togglebar">
-      <a-switch
-        v-model:checked="treeLine"
-        checked-children="o'zbek"
-        un-checked-children="english"
-      ></a-switch>
-      <a-switch
-        v-model:checked="treeLine"
-        checked-children="dark"
-        un-checked-children="light"
-      ></a-switch>
+      <button 
+       @click="store.setThmea"
+      class="w-10 h-10 mb-2">
+        <img :src="store.getThema ? moon : sun" alt="icon" />
+      </button>
+      <div>
+        <a-select
+          class="w-[70px] text-xl border-none"
+          :options="options"
+          v-model:value="locale"
+          v-model="locale"
+          @change="changeLanguage"
+        />
+      </div>
     </div>
   </header>
 </template>
 
 <style scoped lang="scss">
 .topbar {
-  @apply w-full bg-slate-100 flex items-center justify-between px-5 py-2;
+  @apply w-full  flex items-center justify-between px-5 py-2;
 
   &__logo {
     @apply flex items-center;
@@ -58,10 +75,7 @@ const treeLine = ref(true);
     @apply text-grenn   font-bold uppercase;
   }
   &__togglebar {
-    @apply flex items-center w-[100px] h-[80px] justify-around flex-col bg-cyan-100 rounded-lg;
+    @apply flex items-center w-[100px] h-[80px] justify-around flex-col rounded-lg;
   }
-}
-
-.flag {
 }
 </style>
