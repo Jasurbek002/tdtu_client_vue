@@ -1,13 +1,15 @@
 <script setup lang="ts">
+import { empShopping } from "@/constants/employee";
+import { infoShopping } from "@/constants/info";
 import Employe from "@/components/Ui/employee/Employe.vue";
 import Info from "@/components/Ui/info/info.vue";
 import Row from "@/components/Ui/wrapper/Row.vue";
 import Col from "@/components/Ui/wrapper/Col.vue";
 import Aos from "aos";
+import Navigation from "@/components/Ui/navigation/Navigation.vue";
+import { navlinks } from "@/constants/navlink";
 Aos.init();
 
-import { empShopping } from "@/constants/employee";
-import { infoShopping } from "@/constants/info";
 </script>
 
 <template>
@@ -35,5 +37,6 @@ import { infoShopping } from "@/constants/info";
       title="Toshkent davlat texnika universteti Ilmiy-inavatsion ishlanmalarni tijoratlashtirish bo'limi quyidagi vazifalarni bajaradi:"
       :info="infoShopping"
     />
+    <Navigation :data="navlinks[5].items" />
   </Row>
 </template>

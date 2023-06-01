@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ArrowRightOutlined  }  from "@ant-design/icons-vue";
+
 export interface Nav {
   name: string;
   to: string;
@@ -6,7 +8,6 @@ export interface Nav {
 const { data } = defineProps({
   data: Array<Nav>,
 });
-import { ArrowRightOutlined } from "@ant-design/icons-vue";
 </script>
 <template>
   <div class="blok">

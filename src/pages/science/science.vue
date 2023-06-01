@@ -1,15 +1,18 @@
 <script setup lang="ts">
+import Aos from "aos";
+import { navlinks } from "@/constants/navlink";
+import { empScience } from "@/constants/employee";
+import { infoScience } from "@/constants/info";
 import Employe from "@/components/Ui/employee/Employe.vue";
 import Navigation from "@/components/Ui/navigation/Navigation.vue";
 import Info from "@/components/Ui/info/info.vue";
 import Row from "@/components/Ui/wrapper/Row.vue";
 import Col from "@/components/Ui/wrapper/Col.vue";
-import { navlinks } from "@/constants/navlink";
-import Aos from "aos";
+
+
 Aos.init();
 
-import { empScience } from "@/constants/employee";
-import { infoScience } from "@/constants/info";
+
 </script>
 
 <template>

@@ -85,7 +85,7 @@ export const navlinks = [
       },
       {
         name:"To'garaklar",
-        to:'/students/corses'
+        to:'/students/courses'
       },
       {
         name:"Olimpiadalar",

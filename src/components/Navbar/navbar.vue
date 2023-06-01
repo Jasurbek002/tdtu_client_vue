@@ -4,7 +4,7 @@ import { navlinks } from "../../constants/navlink";
 
 <template>
   <nav
-    class="w-full flex items-center justify-evenly bg-grenn h-[60px] sticky z-50 mt-0 top-0 rounded-b-3xl"
+    class="w-full flex items-center justify-evenly bg-grenn h-[60px] sticky z-50 mt-0 top-0"
   >
     <li v-for="links of navlinks" :key="links.id" class="list-none relative">
       <RouterLink class="menu" :to="links.to">{{ links.name }}</RouterLink>
