@@ -20,6 +20,7 @@ const i18n = createI18n({
         en:en
     }
 })
+export {i18n}
 app.use(createPinia())
 app.use(router)
 app.use(i18n)

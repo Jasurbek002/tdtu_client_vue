@@ -27,9 +27,9 @@ const { data } = defineProps({
 </template>
 <style scoped>
 .blok {
-  @apply w-full flex items-center justify-evenly flex-wrap mt-[100px];
+  @apply w-full flex lg:flex-row flex-row md:flex-row sm:flex-col ssm:flex-col items-center justify-evenly flex-wrap mt-[100px];
 }
 .item {
-  @apply py-1 px-2 shadow-2xl rounded-md hover:bg-slate-600 hover:text-white bg-white text-xl flex items-center justify-between text-green-800 transition duration-700 ease-in-out;
+  @apply py-1 px-2 shadow-2xl rounded-md hover:bg-slate-600 hover:text-white bg-white text-xl flex items-center justify-between text-green-800 transition duration-700 ease-in-out my-5;
 }
 </style>

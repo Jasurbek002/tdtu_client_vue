@@ -76,7 +76,7 @@ export const navlinks = [
   },
   {
     id: 5,
-    name: "Iqtidorli-talabalar",
+    name: "Iqtidorli talabalar",
     to: "/students",
     items:[
       {

@@ -21,6 +21,6 @@ const store = useThemaStore()
   position:fixed;
 }
 .banner_dark{
-  @apply w-full min-h-[100vh] mx-auto bg-black fixed
+  @apply w-full min-h-[100vh] mx-auto bg-black/80 fixed
 }
 </style>

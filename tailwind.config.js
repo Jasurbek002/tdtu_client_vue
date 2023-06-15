@@ -1,20 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,vue,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,vue,jsx,tsx}"],
   theme: {
     extend: {
-      scale:{
-        lg:"1200px",
-        md:"926px",
-        sm:"481px"
+      screens: {
+        lg: "1200px",
+        md: "926px",
+        sm: "481px",
+        ssm: "360px",
+
+        mobile: "749px",
       },
-      colors:{
-        grenn:"#1b6b50"
-      }
+      colors: {
+        grenn: "#1b6b50",
+      },
     },
   },
   plugins: [],
-}
+};

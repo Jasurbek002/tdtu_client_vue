@@ -114,7 +114,7 @@ export const empShopping = [
     email: "jasurbekturgunov@gmail.com",
   },
   {
-    image: dilshod2,
+    image: dilshod,
     fullname: "Saminjonov Dilshodjon Muzaffar o'g'li",
     postsia: "Bosh mutaxasis",
     exprence: "dushanba - juma",

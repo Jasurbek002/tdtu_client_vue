@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 export const useThemaStore = defineStore("themaStore", {
   state: () => ({
-    thema:false
+    thema:true
   }),
   getters: {
    getThema:state => state.thema

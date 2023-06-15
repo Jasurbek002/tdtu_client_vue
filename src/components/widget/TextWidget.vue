@@ -1,14 +1,29 @@
 <script setup lang="ts">
 import { useThemaStore } from "@/stores/thema";
-const store = useThemaStore()
+const store = useThemaStore();
 </script>
 <template>
-  <div :class="`logos ${store.getThema ? 'bg-white' : 'bg-slate-700'}`" ref="logos">
+  <div
+    :class="`logos ${store.getThema ? 'bg-white' : 'bg-slate-700'}`"
+    ref="logos"
+  >
     <div class="logos-slide" ref="logos-slide">
-    <p>Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika universitetning innovatsion muhitini rivojlantirish modelini ishlab chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar: f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi</p>
+      <p :class="`${store.getThema ? 'text-green-600' : 'text-white'}`">
+        Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika
+        universitetning innovatsion muhitini rivojlantirish modelini ishlab
+        chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi
+        Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar:
+        f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi
+      </p>
     </div>
     <div class="logos-slide" ref="logos-slide">
-    <p>Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika universitetning innovatsion muhitini rivojlantirish modelini ishlab chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar: f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi</p>
+      <p :class="`${store.getThema ? 'text-green-600' : 'text-white'}`">
+        Ushbu sayt №MRB-2021-552 “Raqamli transformatsiya sharoitida texnika
+        universitetning innovatsion muhitini rivojlantirish modelini ishlab
+        chiqish (Belarus milliy texnika universiteti va Islom Karimov nomidagi
+        Toshkent davlat texnika universiteti misolida)” (Ilmiy raxbar:
+        f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi
+      </p>
     </div>
   </div>
 </template>
@@ -19,8 +34,6 @@ const store = useThemaStore()
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 @keyframes slide {
   from {
@@ -52,8 +65,8 @@ const store = useThemaStore()
 .logos-slide {
   display: flex;
   white-space: nowrap;
- justify-content: space-evenly;
- align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   animation: 35s slide infinite linear;
 }
 
@@ -61,6 +74,6 @@ const store = useThemaStore()
   margin: 0 100px;
   white-space: nowrap;
   border-radius: 50%;
-  @apply font-bold uppercase text-green-800
+  @apply font-bold uppercase;
 }
 </style>

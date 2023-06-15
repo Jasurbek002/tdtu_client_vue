@@ -7,7 +7,7 @@
       target="_blank"
       class="text-white text-xl hover:text-gray-900"
       href="https://www.jasdev.uz"
-      >jasdev.uz</a
+      ><GlobalOutlined class="icon" /></a
     >
     <a
       target="_blank"
@@ -29,6 +29,7 @@ import {
   LinkedinOutlined,
   InstagramOutlined,
   SendOutlined,
+  GlobalOutlined,
 } from "@ant-design/icons-vue";
 </script>
 

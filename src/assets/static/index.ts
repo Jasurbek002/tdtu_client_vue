@@ -27,13 +27,18 @@ import part2 from "./unoptimized/dtm.jpg";
 import part3 from "./unoptimized/oliy.jpg";
 import part4 from "./unoptimized/ziyo.png";
 
-
 // lobaratory
-import lobaratory from "./jpg/loborbg.jpg"
+import lobaratory from "./jpg/loborbg.jpg";
 
-// thema icon 
-import sun from "./svg/sun.svg"
-import moon from "./svg/moon.svg"
+// thema icon
+import sun from "./svg/sun.svg";
+import moon from "./svg/moon.svg";
+
+// newspaper
+import techcal from "./unoptimized/technical.jpg";
+import cemic from "./unoptimized/chemical.png";
+import energya from "./unoptimized/energy.jpg";
+import edu from "./unoptimized/tailm.jpg";
 
 export {
   mex,
@@ -59,5 +64,9 @@ export {
   part4,
   lobaratory,
   sun,
-  moon
+  moon,
+  techcal,
+  cemic,
+  edu,
+  energya,
 };

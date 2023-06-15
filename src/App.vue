@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from "vue-router";
 import Navbar from "./components/Navbar/navbar.vue";
 import Topbar from "./components/topbar/Tapbar.vue";
 import Footer from "./components/Footer/footer.vue";
-// import Widget from './components/widget/widget.vue'
 import LayoutVue from "./Layout/Layout.vue";
 import Container from "./components/Ui/container/container.vue";
 import AOS from "aos";
