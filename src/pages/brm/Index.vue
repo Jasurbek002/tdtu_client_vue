@@ -7,6 +7,7 @@ import { useThemaStore } from '@/stores/thema';
 const {t,locale} = useI18n();
 
 
+
 const store = useThemaStore();
 </script>
 <template>
