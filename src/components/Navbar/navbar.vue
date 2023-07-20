@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { navlinks } from "../../constants/navlink";
+import { useI18n } from "vue-i18n";
+const { t, locale } = useI18n();
 </script>
 
 <template>
@@ -7,7 +9,7 @@ import { navlinks } from "../../constants/navlink";
     class="w-full lg:flex md:hidden sm:hidden ssm:hidden flex items-center justify-evenly bg-grenn h-[60px] sticky z-50 mt-0 top-0"
   >
     <li v-for="links of navlinks" :key="links.id" class="list-none relative">
-      <RouterLink class="menu" :to="links.to">{{ links.name }}</RouterLink>
+      <RouterLink class="menu" :to="links.to">{{ t(links.name) }}</RouterLink>
       <div
         v-if="links.items.length !== 0"
         class="modal w-[250px] p-2 hidden items-start flex-col rounded-md bg-white opacity-0 absolute transform duration-700 ease"

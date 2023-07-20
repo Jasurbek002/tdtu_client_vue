@@ -6,6 +6,7 @@ import StudentRouter from "./modules/student";
 import ReytingRouter from "./modules/reyting";
 import ShoppingRouter from "./modules/shopping";
 import NewspaperRouter from "./modules/newspaper";
+import Brm from "./modules/brm";
 import InnoRouter from "./modules/inno";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,8 +18,13 @@ const router = createRouter({
     ...ReytingRouter,
     ...ShoppingRouter,
     ...NewspaperRouter,
+    ...Brm,
     ...InnoRouter,
   ],
 });
 
 export default router;
+
+
+
+

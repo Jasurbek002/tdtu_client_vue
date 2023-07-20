@@ -116,7 +116,7 @@ const changeLanguage = (lang: string) => {
     // @apply text-grenn font-bold uppercase md:hidden lg:flex sm:hidden ssm:hidden;
   }
   &__togglebar {
-    @apply flex items-center w-[100px] h-[80px] justify-around  rounded-lg md:ml-auto sm:ml-auto ssm:ml-auto sm:flex-row md:flex-row ssm:flex-row lg:flex-col;
+    @apply flex items-center w-[100px] h-[80px] justify-around  rounded-lg md:ml-auto sm:ml-auto ssm:ml-auto lg:ml-0 sm:flex-row md:flex-row ssm:flex-row lg:flex-col;
   }
 }
 </style>

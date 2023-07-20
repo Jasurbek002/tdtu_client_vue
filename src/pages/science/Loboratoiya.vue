@@ -9,7 +9,7 @@ import { lobaratory } from "@/assets/static";
     class="min-h-[100vh] bg-no-repeat bg-cover"
   >
     <Row
-      styles="w-10/12"
+      styles="w-11/12"
       label="ENERGIYA TEJAMKOR TEXNOLOGIYALARI, NAZARAT-ULCHOV VA AVTOMATLASHTIRILGAN TIZIMLAR OTM LAR ARO ILMIY TADQIQOT LABORATORIYASI."
     >
       <div
@@ -17,7 +17,7 @@ import { lobaratory } from "@/assets/static";
         v-for="(room, i) of rooms"
         :key="i"
       >
-        <RouterLink to="/">
+        <RouterLink :to="`/science/laboratory/room/${room.id}`">
           <p class="text-xl text-center text-white font-medium">
             {{ room.name }}
           </p>

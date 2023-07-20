@@ -9,5 +9,45 @@
     "reyting":"reyting",
     "shooping":"tijoratlashtirish",
     "newspaper":"Ilmiy jurnallar",
-    "inno":"Inno texnopark"
+    "inno":"Inno texnopark",
+
+    "news_title":"SO'NGI YANGILIKLAR",
+
+    "fukulty":"FAKULTETLAR",
+
+
+    "brm_title_1":"O'ta qashshoqlikka barham berish",
+    "brm_text_1":"Butun dunyoda barcha turdagi qashshoqlikni butkul yo‘q qilish",
+    "brm_title_2":"Ochlikka barham berish",
+    "brm_text_2":"Ochlikni yo‘q qilish, ozuqaviy xavfsizlikni ta’minlash va oziqlanishni yaxshilash hamda qishloq xo‘jaligining barqaror rivojlanishiga yordamlashish",
+    "brm_title_3":"Sog'lik va farovonlik",
+    "brm_text_3":"Barcha aholi sog‘lom turmush kechirishi va salomat bo‘lishini ta’minlash",
+    "brm_title_4":"Sifatli ta'lim",
+    "brm_text_4":"Har bir insonni qamrab oluvсhi odil va yuqori sifatli ta’lim tizimini ta’minlash va ta’lim olishiga rag‘batlantirish",
+    "brm_title_5":"Gender tenligi",
+    "brm_text_5":"Gender tenglikni ta’minlab, barcha ayol va qizlarning huquq va imkoniyatlarini kengaytirish",
+    "brm_title_6":"Toza suv va sanitariya",
+    "brm_text_6":"Suv resurslarining mavjudligi, ulardan oqilona foydalanish va har bir insonning sanitariya vositalaridan foydalanish imkoniyatini ta’minlash",
+    "brm_title_7":"Arzon va toza energiya",
+    "brm_text_7":"Har bir insonning arzon, ishonchli va zamonaviy energiya manbalaridan foydalanish imkonini ta’minlash",
+    "brm_title_8":"Saonatlashtirish, innovatsiya va infratuzilma",
+    "brm_text_8":"Mustahkam infratuzilmani yaratish, keng qamrovli barqaror industrializatsiya va innovatsiyalarni hayotga tadbiq etishga ko‘maklashish",
+    "brm_title_9":"Tengsizlikni kamaytirish",
+    "brm_text_9":"Mamlakatlar o‘rtasidagi va ichida mavjud bo‘lgan tengsizlikni qisqartirish",
+    "brm_title_10":"Barqaror shaharlar va aholli yashash joylari",
+    "brm_text_10":"Building strong infrastructure, promoting comprehensive sustainable industrialization and bringing innovation to life",
+    "brm_title_11":"Mas'uliyatli iste'mol va ishlab chiqarish",
+    "brm_text_11":"Oqilona iste’mol qilish va ishlab chiqarish modellariga o‘tishni ta’minlash",
+    "brm_title_12":"Iqlim o'zgarishiga qarshi kurashish",
+    "brm_text_12":"text_uz: `Iqlim o‘zgarishi va uning oqibatlariga qarshi kurash bo‘yicha tezkor choralarni ko‘rish",
+    "brm_title_13":"Dengiz ekotizimlarini asrash",
+    "brm_text_13":"Barqaror taraqqioyt yo‘lida okeanlar, dengiz va dengiz resurslarini asrash va ulardan oqilona foydalanish",
+    "brm_title_14":"Quruqlikdagi ekotizimlarni asrash",
+    "brm_text_14":"O‘rmonlardan oqilona foydalanish, qumlanishga qarshi kurash, yerlarning tanazzulga uchrashi jarayonini to‘xtatib, yerlarni qayta tiklash, biologik xilma-xillikning yo‘qolib ketishini to‘xtatish",
+    "brm_title_15":"Tinchlik, adolat va samarali boshqaruv",
+    "brm_text_15":"Tinchliksevar va ochiq jamiyat qurishga ko‘maklashish",
+    "brm_title_16":"rivojlanish yo'lida hamkorlik",
+    "brm_text_16":"Barqaror taraqqiyot yo‘lidagi xalqaro hamkorlikni jadallashtirish"
+
+
 }

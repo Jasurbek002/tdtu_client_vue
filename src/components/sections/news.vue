@@ -1,16 +1,25 @@
 <script setup lang="ts">
 import Row from "../Ui/wrapper/Row.vue";
 import Card from "../Ui/card/Card.vue";
-import { useDataStore } from "@/stores/news";
-const store = useDataStore()
-const news = store.getnews
-console.log(news);
+import DataService from "@/services/DataService";
+import { ref } from "vue";
 
+interface News {
+  image: string
+  link: string
+  new_id: number
+  title_en: string
+  title_uz: string
+}
+const news = ref<News[]>([]);
+DataService.getData("/news").then((res) => {
+  news.value = res.data.data
+});
 </script>
 
 <template>
-  <Row label="so'ngi yangiliklar" styles="bg" >
-        <Card v-for="(el,i) of news" :data="el" :key="i" />
+  <Row label="so'ngi yangiliklar" styles="bg">
+    <Card v-for="(el, i) of news" :data="el" :key="i" />
   </Row>
 </template>
 

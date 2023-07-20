@@ -10,6 +10,8 @@ import "aos/dist/aos.css";
 import My from "./components/myInfo/My.vue";
 import TextWidgetVue from "./components/widget/TextWidget.vue";
 
+
+
 AOS.init();
 </script>
 

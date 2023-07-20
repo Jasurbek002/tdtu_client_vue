@@ -7,8 +7,8 @@
       target="_blank"
       class="text-white text-xl hover:text-gray-900"
       href="https://www.jasdev.uz"
-      ><GlobalOutlined class="icon" /></a
-    >
+      ><GlobalOutlined class="icon"
+    /></a>
     <a
       target="_blank"
       href="https://www.linkedin.com/in/jasurbek-turgunov-157b48235/"

@@ -20,6 +20,11 @@ export default [
         component: () => import("@/pages/science/Loboratoiya.vue"),
       },
       {
+        path:"/science/laboratory/room/:id",
+        name:"room",
+        component:() => import("@/components/Ui/rooms/index.vue")
+      },
+      {
         path: "/science/objects",
         name: "objects",
         component: () => import("@/pages/science/Objects.vue"),

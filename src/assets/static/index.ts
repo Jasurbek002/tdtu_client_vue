@@ -40,6 +40,58 @@ import cemic from "./unoptimized/chemical.png";
 import energya from "./unoptimized/energy.jpg";
 import edu from "./unoptimized/tailm.jpg";
 
+// qs 
+import qs1 from "./jpg/qs.jpg"
+import qs2 from "./jpg/qs2.jpg"
+
+// the
+import the1 from "./jpg/the1.jpg"
+// national
+import national1 from "./jpg/national1.jpg"
+import national2 from "./jpg/national2.jpg"
+import national3 from "./jpg/national3.jpg"
+// green
+import green from "./png/green.png"
+
+// brm
+import unrich from "./unoptimized/qashshoq.png";
+import education from "./unoptimized/edu.png";
+import env from "./unoptimized/env.png";
+import work from "./unoptimized/work.png";
+import clean from "./unoptimized/clean.png";
+import distance from "./unoptimized/distance.png";
+import eco from "./unoptimized/eco.png";
+import gender from "./unoptimized/gender.png";
+import health from "./unoptimized/health.png";
+import hungry from "./unoptimized/hungry.png";
+import inno from "./unoptimized/inno.png";
+import ocean from "./unoptimized/ocean.png";
+import partnership from "./unoptimized/partnershib.png";
+import people from "./unoptimized/peple.png";
+import piece from "./unoptimized/piece.png";
+import responsible from "./unoptimized/responsible.png";
+import tuz from "./unoptimized/tuz.png"
+
+export {
+  unrich,
+  education,
+  env,
+  eco,
+  work,
+  clean,
+  distance,
+  gender,
+  health,
+  hungry,
+  inno,
+  ocean,
+  partnership,
+  people,
+  piece,
+  responsible,
+  tuz
+};
+
 export {
   mex,
   energy,
@@ -69,4 +121,11 @@ export {
   cemic,
   edu,
   energya,
+  qs1,
+  qs2,
+  the1,
+  national1,
+  national2,
+  national3,
+  green
 };

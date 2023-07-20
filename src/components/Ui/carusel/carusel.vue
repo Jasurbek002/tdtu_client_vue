@@ -1,10 +1,21 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import type { CarouselProps } from "ant-design-vue";
-import { useDataStore } from "@/stores/news";
+import DataService from "@/services/DataService";
+interface Bunner {
+  title_uz: string;
+  title_en: string;
+  text_uz: string;
+  text_en: string;
+  image: string;
+}
+const bunner = ref<Bunner[]>([]);
 
-const { data } = useDataStore();
-const visible = ref<any>(false)
+DataService.getData("/banners").then((res) => {
+  bunner.value = res.data.data;
+});
+
+const visible = ref<any>(false);
 //  const dotPosition = ref<CarouselProps["dotPosition"]>("top")
 </script>
 
@@ -16,26 +27,30 @@ const visible = ref<any>(false)
       dot-position="left"
       :loop="true"
     >
-      <a-carousel-slide v-for="(silide, i) of data" :key="i">
+      <a-carousel-slide v-for="(silide, i) of bunner" :key="i">
         <div class="box">
           <div
-            class="flex lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]  rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center ssm:absolute sm:absolute md:absolute lg:static static z-20 md:backdrop-sepia-0 sm:backdrop-sepia-0 ssm:backdrop-sepia-0 ssm:bg-black/40 sm:bg-black/40 md:bg-black/40 lg:bg-transparent lg:backdrop-sepia-0"
+            class="flex lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px] rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center ssm:absolute sm:absolute md:absolute lg:static static z-20 md:backdrop-sepia-0 sm:backdrop-sepia-0 ssm:backdrop-sepia-0 ssm:bg-black/40 sm:bg-black/40 md:bg-black/40 lg:bg-transparent lg:backdrop-sepia-0"
           >
             <h1
               class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 uppercase border-b-2 border-green-900 my-10"
             >
-              {{ silide?.title }}
+              {{ silide?.title_uz }}
             </h1>
-            <p class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 text-xl border-green-700 border-b-2 my-10">
-              {{ silide?.text?.slice(0, 100) }}
+            <p
+              class="text-sm ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 border-green-700 border-b-2 my-10"
+            >
+              {{ silide?.text_uz }}
             </p>
           </div>
 
-          <div class="max-w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]">
+          <div
+            class="max-w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
+          >
             <a-image
-               height="400px"
+              height="400px"
               class="w-full h-[400px] rounded-md"
-              :src="silide?.img"
+              :src="`http://34.204.6.47:5000/${silide?.image}`"
               alt="banner"
             />
           </div>
@@ -45,7 +60,7 @@ const visible = ref<any>(false)
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* For demo */
 .ant-carousel :deep(.slick-slide) {
   height: 500px;

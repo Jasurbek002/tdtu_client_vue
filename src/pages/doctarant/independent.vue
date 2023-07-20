@@ -1,46 +1,47 @@
 <script setup lang="ts">
 import Table from "@/components/Ui/table/Table.vue";
 import Row from "@/components/Ui/wrapper/Row.vue";
+import { ref } from "vue";
+import DataService from "@/services/DataService";
+
+
+ interface Doc {
+    type:string
+}
+let data = ref([
+  {
+    doc_id: 1,
+    full_name: "Kamolov Ahmadjon Abduraximovich",
+    job: "Samarqand davalar arxitektura va qurulish inistituti dekan orinbosari",
+    special: "01.04.04 - fizik Elektronika",
+    type: "ds",
+  },
+]);
+
+DataService.getData('/doctorate').then(res => {
+ data.value = res?.data?.data?.filter((el:Doc) => el.type === 'independet')
+})
+
 const columns = [
   {
-    title: "Name",
-    dataIndex: "name",
+    title: "F.I.O",
+    dataIndex: "full_name",
   },
   {
-    title: "Cash Assets",
+    title: "Ixtisosligi",
     className: "column-money",
-    dataIndex: "money",
+    dataIndex: "job",
   },
   {
-    title: "Address",
-    dataIndex: "address",
+    title: "Ish Joyi",
+    dataIndex: "special",
   },
 ];
 
-const data = [
-  {
-    key: "1",
-    name: "John Brown",
-    money: "￥300,000.00",
-    address: "New York No. 1 Lake Park",
-  },
-  {
-    key: "2",
-    name: "Jim Green",
-    money: "￥1,256,000.00",
-    address: "London No. 1 Lake Park",
-  },
-  {
-    key: "3",
-    name: "Joe Black",
-    money: "￥120,000.00",
-    address: "Sidney No. 1 Lake Park",
-  },
-];
 </script>
 
 <template>
   <Row label="Mustaqil izlanuvchilar">
-    <Table :data="data" :columns="columns" />
+    <Table class="w-11/12" :data="data" :columns="columns" />
   </Row>
 </template>

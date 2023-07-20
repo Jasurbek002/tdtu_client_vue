@@ -9,5 +9,42 @@
     "reyting":"reyting",
     "shooping":"commercialization",
     "newspaper":"Scientific journals",
-    "inno":"Inno technopark"
+    "inno":"Inno technopark",
+
+    "news_title":"LATEST NEWS",
+
+    "fukulty":"FACULTIES",
+
+    "brm_title_1":"No poverty",
+    "brm_text_1":"Total eradication of all forms of poverty worldwide",
+    "brm_title_2":"Zero hunger",
+    "brm_text_2":"Ending hunger, ensuring food security and improving nutrition and promoting sustainable agricultural development",
+    "brm_title_3":"Good health and well-being",
+    "brm_text_3":"all residents live a healthy life and stay healthy",
+    "brm_title_4":"Quality education",
+    "brm_text_4":"Ensuring an inclusive, equitable and high -quality education system for all and encouraging access to education",
+    "brm_title_5":"Gender equality",
+    "brm_text_5":"Empowering all women and girls by ensuring gender equality",
+    "brm_title_6":"Clean water and sanitation",
+    "brm_text_6":"Availability of water resources, their rational use and ensuring everyone's access to sanitary facilitie",
+    "brm_title_7":"Affordable and clean energy",
+    "brm_text_7":"everyone with access to cheap, reliable and modern energy sources",
+    "brm_title_8":"Industrialization, innovation and infrastructure",
+    "brm_text_8":"Building strong infrastructure, promoting comprehensive sustainable industrialization and bringing innovation to life",
+    "brm_title_9":"Reducing inequality",
+    "brm_text_9":"Reducing inequality between and within countries",
+    "brm_title_10":"Sustainable cities and communities",
+    "brm_text_10":"Building strong infrastructure, promoting comprehensive sustainable industrialization and bringing innovation to life",
+    "brm_title_11":"Responsible consumption and production",
+    "brm_text_11":"rational consumption and production models",
+    "brm_title_12":"Climate action",
+    "brm_text_12":"Climate o ' change and his to the consequences against struggle according to _ fast measures to see _ ",
+    "brm_title_13":"Life below water",
+    "brm_text_13":"Stable progress on the road oceans , sea and the sea resources save and of them reasonable use",
+    "brm_title_14":"Life on Land",
+    "brm_text_14":"Sustainable use of forests, combating sandification, halting land degradation and restoring land, halting biodiversity loss",
+    "brm_text_15":"Peace , justice and strong institutions",
+    "brm_title_16":"Partnerships for the Goals",
+    "brm_text_16":"Acceleration of international cooperation for sustainable development"
+
 }

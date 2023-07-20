@@ -1,13 +1,13 @@
 export const navlinks = [
   {
     id: 1,
-    name: "Bosh sahifa",
+    name: "home",
     to: "/",
     items:[]
   },
   {
     id: 2,
-    name: "Doktorantura",
+    name: "doctarate",
     to: "/doctarant",
     items:[
       {
@@ -30,7 +30,7 @@ export const navlinks = [
   },
   {
     id: 3,
-    name: "Ilmiy-tadqiqot",
+    name: "scinece",
     to: "/science",
     items:[
       {
@@ -53,7 +53,7 @@ export const navlinks = [
   },
   {
     id: 4,
-    name: "Reyting",
+    name: "reyting",
     to: "/reyting",
     items:[
       {
@@ -76,7 +76,7 @@ export const navlinks = [
   },
   {
     id: 5,
-    name: "Iqtidorli talabalar",
+    name: "students",
     to: "/students",
     items:[
       {
@@ -95,7 +95,7 @@ export const navlinks = [
   },
   {
     id: 6,
-    name: "Tijoratlashtirish",
+    name: "shooping",
     to: "/shopping",
     items:[
       {
@@ -114,7 +114,7 @@ export const navlinks = [
   },
   {
     id: 7,
-    name: "Ilmiy jurnallar",
+    name: "newspaper",
     to: "/newspaper",
     items:[
       {
@@ -133,7 +133,13 @@ export const navlinks = [
   },
   {
     id: 8,
-    name: "INNO Texnopark",
+    name: "BRM",
+    to: "/brm",
+    items:[]
+  },
+  {
+    id: 9,
+    name: "inno",
     to: "/inno",
     items:[]
   },
