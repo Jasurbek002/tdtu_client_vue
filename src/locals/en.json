@@ -8,6 +8,7 @@
     "students":"Talented students",
     "reyting":"reyting",
     "shooping":"commercialization",
+    "brm":"SDG",
     "newspaper":"Scientific journals",
     "inno":"Inno technopark",
 
@@ -45,6 +46,9 @@
     "brm_text_14":"Sustainable use of forests, combating sandification, halting land degradation and restoring land, halting biodiversity loss",
     "brm_text_15":"Peace , justice and strong institutions",
     "brm_title_16":"Partnerships for the Goals",
-    "brm_text_16":"Acceleration of international cooperation for sustainable development"
+    "brm_text_16":"Acceleration of international cooperation for sustainable development",
+
+    "brm_title":"Sustainable Development Goals",
+    "brm_btn":"read more..."
 
 }

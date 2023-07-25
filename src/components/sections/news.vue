@@ -3,7 +3,8 @@ import Row from "../Ui/wrapper/Row.vue";
 import Card from "../Ui/card/Card.vue";
 import DataService from "@/services/DataService";
 import { ref } from "vue";
-
+import { useI18n } from "vue-i18n";
+const {t,locale} = useI18n();
 interface News {
   image: string
   link: string
@@ -18,7 +19,7 @@ DataService.getData("/news").then((res) => {
 </script>
 
 <template>
-  <Row label="so'ngi yangiliklar" styles="bg">
+  <Row :label="t('news_title')" styles="bg">
     <Card v-for="(el, i) of news" :data="el" :key="i" />
   </Row>
 </template>

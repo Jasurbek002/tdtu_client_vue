@@ -8,6 +8,7 @@
     "students":"Iqtidorli talabalar",
     "reyting":"reyting",
     "shooping":"tijoratlashtirish",
+    "brm":"BRM",
     "newspaper":"Ilmiy jurnallar",
     "inno":"Inno texnopark",
 
@@ -47,7 +48,10 @@
     "brm_title_15":"Tinchlik, adolat va samarali boshqaruv",
     "brm_text_15":"Tinchliksevar va ochiq jamiyat qurishga ko‘maklashish",
     "brm_title_16":"rivojlanish yo'lida hamkorlik",
-    "brm_text_16":"Barqaror taraqqiyot yo‘lidagi xalqaro hamkorlikni jadallashtirish"
+    "brm_text_16":"Barqaror taraqqiyot yo‘lidagi xalqaro hamkorlikni jadallashtirish",
+
+    "brm_title":"BARQAROR RIVOJLANISH MAQSADLARI",
+    "brm_btn":"Ko'proq ko'rish"
 
 
 }

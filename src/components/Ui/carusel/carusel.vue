@@ -2,6 +2,9 @@
 import { ref } from "vue";
 import type { CarouselProps } from "ant-design-vue";
 import DataService from "@/services/DataService";
+import { useI18n } from "vue-i18n";
+const {t,locale} = useI18n();
+
 interface Bunner {
   title_uz: string;
   title_en: string;
@@ -16,7 +19,7 @@ DataService.getData("/banners").then((res) => {
 });
 
 const visible = ref<any>(false);
-//  const dotPosition = ref<CarouselProps["dotPosition"]>("top")
+ const dotPosition = ref<CarouselProps["dotPosition"]>("top")
 </script>
 
 <template>
@@ -35,12 +38,12 @@ const visible = ref<any>(false);
             <h1
               class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 uppercase border-b-2 border-green-900 my-10"
             >
-              {{ silide?.title_uz }}
+              {{ locale === 'uz' ? silide?.title_uz : silide.title_en }}
             </h1>
             <p
               class="text-sm ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 border-green-700 border-b-2 my-10"
             >
-              {{ silide?.text_uz }}
+              {{ locale === 'uz' ? silide?.text_uz : silide.text_en }}
             </p>
           </div>
 

@@ -31,7 +31,7 @@ Aos.init();
       data-aos-anchor="#example-anchor"
       data-aos-offset="500"
       data-aos-duration="500"
-      title="Ilmiy–tadqiqotlar innovatsiyalar va pedagogik kadrlarni tayyorlash bo’limi quydagi vazifalarni bajaradi:"
+      title="Xalqaro reyting bo'limi quydagi vazifalarni bajaradi:"
       :info="infoReyting"
     />
     <Navigation :data="navlinks[3].items" />
