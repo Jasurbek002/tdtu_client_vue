@@ -1,4 +1,4 @@
-import { climate1, climate10, climate11, climate12, climate13, climate14, climate15, climate16, climate17, climate18, climate19, climate2, climate20, climate21, climate22, climate23, climate24, climate25, climate3, climate4, climate5, climate6, climate7, climate8, climate9 } from "@/assets/static/climate";
+import { climate1, climate10, climate11, climate12, climate13, climate14, climate15, climate16, climate1616, climate17, climate18, climate19, climate2, climate20, climate2020, climate21, climate22, climate23, climate24, climate25, climate3, climate4, climate5, climate6, climate7, climate8, climate9 } from "@/assets/static/climate";
 
 export const climate = [
   {
@@ -50,99 +50,123 @@ export const climate = [
   },
   {
     id: 6,
-    title: `Sustainability and Climate Action Education at Tashkent State Technical University: Climate Science and Environmental Sustainability Courses.`,
-    text: `Tashkent State Technical University is committed to sustainability and climate action. The university offers a number of courses that teach specifically on climate science and/or environmental sustainability, including courses offered by the ecology chair and the energy chair.
-    The ecology chair offers courses on a variety of topics related to ecology, such as environmental science, environmental policy, and environmental management. The energy chair offers courses on a variety of topics related to energy, such as renewable energy, energy efficiency, and energy policy.
-    These courses provide students with the knowledge and skills they need to understand the science of climate change and to contribute to the development of sustainable solutions. They also help to prepare students for careers in fields such as environmental science, environmental engineering, and energy policy.
-    `,
-    image: climate6,
-  },
-  {
-    id: 7,
-    title: `Sustainability and Climate Action Education at Tashkent State Technical University: Climate Science and Environmental Sustainability Courses.`,
-    text: `Tashkent State Technical University is committed to sustainability and climate action. The university offers a number of courses that teach specifically on climate science and/or environmental sustainability, including courses offered by the ecology chair and the energy chair.
-    The ecology chair offers courses on a variety of topics related to ecology, such as environmental science, environmental policy, and environmental management. The energy chair offers courses on a variety of topics related to energy, such as renewable energy, energy efficiency, and energy policy.
-    These courses provide students with the knowledge and skills they need to understand the science of climate change and to contribute to the development of sustainable solutions. They also help to prepare students for careers in fields such as environmental science, environmental engineering, and energy policy.
-    `,
-    image:climate7,
-  },
-  {
-    id: 8,
     title: `Environmental Sustainability Research Centers and Educational Programs at Tashkent State Technical University (TSTU).`,
-    text: `
-    Tashkent State Technical University (TSTU) has a number of research centers that focus on environmental sustainability. These centers include:
-    •	The Center for Environmental Studies and Sustainable Development: This center conducts research on a variety of environmental sustainability topics, such as climate change, water resources management, and sustainable energy.
-    •	The Center for Environmental Engineering: This center conducts research on the design, construction, and operation of environmental engineering systems, such as wastewater treatment plants and air pollution control systems.
-    •	The Center for Environmental Policy: This center conducts research on environmental policy issues, such as the development of environmental regulations and the implementation of environmental laws.
+    text: `Tashkent State Technical University (TSTU) has a number of research centers that focus on environmental sustainability. These centers include:
+    The Center for Environmental Studies and Sustainable Development: This center conducts research on a variety of environmental sustainability topics, such as climate change, water resources management, and sustainable energy.
+    The Center for Environmental Engineering: This center conducts research on the design, construction, and operation of environmental engineering systems, such as wastewater treatment plants and air pollution control systems.
+    The Center for Environmental Policy: This center conducts research on environmental policy issues, such as the development of environmental regulations and the implementation of environmental laws.
     These centers are staffed by a team of experienced researchers who are committed to advancing the field of environmental sustainability. The centers also collaborate with other universities, research institutes, and government agencies to conduct research and to develop sustainable solutions.
     In addition to these research centers, TSTU also offers a number of undergraduate and graduate programs in environmental sustainability. These programs provide students with the knowledge and skills they need to understand the science of environmental sustainability and to contribute to the development of sustainable solutions.
     TSTU is committed to sustainability and climate action. The university's research centers and its educational programs are helping to prepare students and researchers to address the challenges of environmental sustainability.
-    
+    `,
+    image: climate7,
+  },
+  {
+    id: 7,
+    title: `Equality, Diversity, and Inclusion Policy and Sustainability Initiatives at Tashkent State Technical University (TSTU).`,
+    text: `Our country has Equality, Diversity and Inclusion (EDI) policy like :link for gender equality (https://lex.uz/docs/-4494849) , Religious equality (https://lex.uz/acts/-65108) and Disability equality (https://lex.uz/docs/-5049511) 
+    Tashkent State Technical University named after Islam Karimov (TSTU) does have a current Equality, Diversity and Inclusion (EDI) policy. The policy was developed in 2022 and is based on the following principles:
+    All members of the TSTU community are entitled to be treated with respect and dignity, regardless of their race, ethnicity, gender, religion, sexual orientation, or other personal characteristics.
+    The university is committed to creating an environment where everyone feels welcome, valued, and supported.
+    The university will take steps to address discrimination and harassment, and to promote equality and inclusion.
+    The EDI policy is implemented through a number of initiatives, including:
+    Diversity training for staff and students
+    Support services for students from marginalized groups
+    Mentoring programs for women and underrepresented groups
+    Recruitment and retention practices that promote diversity
+    TSTU is committed to creating a more equitable and inclusive environment for all members of its community. The EDI policy is an important step in this journey.
+    Here are some additional information that you can use to present for the QS sustainability ranking:
+    TSTU has a number of initiatives in place to promote sustainability, including:
+    A green campus with energy-efficient buildings and water conservation measures
+    A recycling program
+    A sustainable transportation plan
+    A commitment to reducing its carbon footprint
+    TSTU is also a member of the United Nations Sustainable Development Goals (SDGs) and is working to achieve all 17 goals.
     `,
     image:climate8,
   },
   {
-    id: 9,
-    title: `Equality, Diversity, and Inclusion Policy and Sustainability Initiatives at Tashkent State Technical University (TSTU).`,
+    id: 8,
+    title: `Support Services for People with Disabilities and Accessibility Initiatives at Tashkent State Technical University (TSTU).`,
     text: `
-    our country has Equality, Diversity and Inclusion (EDI) policy like :link for gender equality (https://lex.uz/docs/-4494849) , Religious equality (https://lex.uz/acts/-65108) and Disability equality (https://lex.uz/docs/-5049511) 
-    Tashkent State Technical University named after Islam Karimov (TSTU) does have a current Equality, Diversity and Inclusion (EDI) policy. The policy was developed in 2022 and is based on the following principles:
-    •	All members of the TSTU community are entitled to be treated with respect and dignity, regardless of their race, ethnicity, gender, religion, sexual orientation, or other personal characteristics.
-    •	The university is committed to creating an environment where everyone feels welcome, valued, and supported.
-    •	The university will take steps to address discrimination and harassment, and to promote equality and inclusion.
-    The EDI policy is implemented through a number of initiatives, including:
-    •	Diversity training for staff and students
-    •	Support services for students from marginalized groups
-    •	Mentoring programs for women and underrepresented groups
-    •	Recruitment and retention practices that promote diversity
-    TSTU is committed to creating a more equitable and inclusive environment for all members of its community. The EDI policy is an important step in this journey.
+    TSTU offers a number of support services for people with disabilities. These services include:
+    Academic accommodations: TSTU can provide academic accommodations to students with disabilities, such as extended time on exams, note-takers, and scribes.
+    Disability services office: TSTU has a disability services office that can provide students with information and support on a variety of topics, such as accessibility, accommodations, and financial aid.
+    Accessible transportation: TSTU offers accessible transportation to students with disabilities. This includes buses and shuttles that are equipped with wheelchair lifts and accessible seating.
+    Accessible campus: TSTU's campus is designed to be accessible to people with disabilities. This includes features such as ramps, elevators, and accessible parking.
+    TSTU is committed to providing a supportive and inclusive environment for all students, including those with disabilities. The university's support services help to ensure that all students have the opportunity to succeed.
     Here are some additional information that you can use to present for the QS sustainability ranking:
-    •	TSTU has a number of initiatives in place to promote sustainability, including:
-    o	A green campus with energy-efficient buildings and water conservation measures
-    o	A recycling program
-    o	A sustainable transportation plan
-    o	A commitment to reducing its carbon footprint
-    •	TSTU is also a member of the United Nations Sustainable Development Goals (SDGs) and is working to achieve all 17 goals.
+    TSTU is a member of the Accessibility International Network (AIN). AIN is a global network of universities that are committed to making their campuses more accessible to people with disabilities.
+    TSTU has been recognized for its commitment to accessibility by the World Bank. In 2022, TSTU was awarded the World Bank's Accessibility Award for Excellence.
+    TSTU is also a member of the United Nations Sustainable Development Goals (SDGs). SDG 17 is about partnerships for the goals. TSTU is committed to working with other universities and organizations to promote accessibility and inclusion. programs are helping to prepare students and researchers to address the challenges of environmental sustainability.
     
     `,
     image:climate9,
   },
   {
-    id: 10,
-    title: `Support Services for People with Disabilities and Accessibility Initiatives at Tashkent State Technical University (TSTU).`,
-    text: `
-    TSTU offers a number of support services for people with disabilities. These services include:
-•	Academic accommodations: TSTU can provide academic accommodations to students with disabilities, such as extended time on exams, note-takers, and scribes.
-•	Disability services office: TSTU has a disability services office that can provide students with information and support on a variety of topics, such as accessibility, accommodations, and financial aid.
-•	Accessible transportation: TSTU offers accessible transportation to students with disabilities. This includes buses and shuttles that are equipped with wheelchair lifts and accessible seating.
-•	Accessible campus: TSTU's campus is designed to be accessible to people with disabilities. This includes features such as ramps, elevators, and accessible parking.
-TSTU is committed to providing a supportive and inclusive environment for all students, including those with disabilities. The university's support services help to ensure that all students have the opportunity to succeed.
-Here are some additional information that you can use to present for the QS sustainability ranking:
-•	TSTU is a member of the Accessibility International Network (AIN). AIN is a global network of universities that are committed to making their campuses more accessible to people with disabilities.
-•	TSTU has been recognized for its commitment to accessibility by the World Bank. In 2022, TSTU was awarded the World Bank's Accessibility Award for Excellence.
-•	TSTU is also a member of the United Nations Sustainable Development Goals (SDGs). SDG 17 is about partnerships for the goals. TSTU is committed to working with other universities and organizations to promote accessibility and inclusion.
-
-    `,
-    image: climate10,
-  },
-  {
-    id: 11,
+    id: 9,
     title: `TSTU's Accessible Campus and Support Services for Students with Disabilities.`,
     text: `
     TSTU's campus is easily accessible by people with disabilities:
-•	Ramps: TSTU's campus has ramps at all entrances and exits, as well as on all walkways. This makes it easy for people with wheelchairs or other mobility devices to get around the campus.
-•	Accessible parking: TSTU has accessible parking spaces near all entrances to the campus. This makes it easy for people with mobility challenges to park their cars and get to their classes or other destinations.
-•	Accessible restrooms: TSTU has accessible restrooms in all buildings. This makes it easy for people with mobility challenges to use the restroom.
-•	Accessible classrooms: TSTU's classrooms are designed to be accessible to people with disabilities. This includes features such as wheelchair-accessible desks and chairs, and accessible doors.
-•	Accessible sidewalks: TSTU's sidewalks are wide and level, making it easy for people with mobility challenges to walk around the campus.
-•	Accessible transportation: TSTU offers accessible transportation to students with disabilities. This includes buses and shuttles that are equipped with wheelchair lifts and accessible seating.
-In addition to these physical features, TSTU also offers a number of services to help students with disabilities succeed. These services include:
-•	Academic accommodations: TSTU can provide academic accommodations to students with disabilities, such as extended time on exams, note-takers, and scribes.
-•	Disability services office: TSTU has a disability services office that can provide students with information and support on a variety of topics, such as accessibility, accommodations, and financial aid.
-TSTU is committed to providing a supportive and inclusive environment for all students, including those with disabilities. The university's support services and physical features help to ensure that all students have the opportunity to succeed
-
+    Ramps: TSTU's campus has ramps at all entrances and exits, as well as on all walkways. This makes it easy for people with wheelchairs or other mobility devices to get around the campus.
+    Accessible parking: TSTU has accessible parking spaces near all entrances to the campus. This makes it easy for people with mobility challenges to park their cars and get to their classes or other destinations.
+    Accessible restrooms: TSTU has accessible restrooms in all buildings. This makes it easy for people with mobility challenges to use the restroom.
+    Accessible classrooms: TSTU's classrooms are designed to be accessible to people with disabilities. This includes features such as wheelchair-accessible desks and chairs, and accessible doors.
+    Accessible sidewalks: TSTU's sidewalks are wide and level, making it easy for people with mobility challenges to walk around the campus.
+    Accessible transportation: TSTU offers accessible transportation to students with disabilities. This includes buses and shuttles that are equipped with wheelchair lifts and accessible seating.
+    In addition to these physical features, TSTU also offers a number of services to help students with disabilities succeed. These services include:
+    Academic accommodations: TSTU can provide academic accommodations to students with disabilities, such as extended time on exams, note-takers, and scribes.
+    Disability services office: TSTU has a disability services office that can provide students with information and support on a variety of topics, such as accessibility, accommodations, and financial aid.
+    TSTU is committed to providing a supportive and inclusive environment for all students, including those with disabilities. The university's support services and physical features help to ensure that all students have the opportunity to succeed.
+    
+    `,
+    image:climate10,
+  },
+  {
+    id: 10,
+    title: `TSTU's Access Schemes and Support Services for Students with Disabilities: Mentoring Program, Targeted Support, and Specific Examples of Success Stories.`,
+    text: `
+    TSTU offers access schemes for people with disabilities:
+    Mentoring program: TSTU offers a mentoring program for students with disabilities. In this program, students are paired with mentors who can provide them with support and guidance. Mentors can help students with things like academic advising, career planning, and social adjustment.
+    Targeted support services: TSTU offers a variety of targeted support services for students with disabilities. These services can be tailored to the individual needs of each student. Some examples of targeted support services include:
+    Individualized education plans (IEPs)
+    Speech therapy
+    Occupational therapy
+    Physical therapy
+    Tutoring
+    Financial aid
+    Accessible transportation: TSTU offers accessible transportation to students with disabilities. This includes buses and shuttles that are equipped with wheelchair lifts and accessible seating.
+    In addition to these services, TSTU also offers a number of other resources for students with disabilities. These resources include:
+    A disability services office
+    A library with accessible materials
+    A computer lab with accessible computers
+    A dining hall with accessible seating
+    A recreation center with accessible facilities
+    TSTU is committed to providing a supportive and inclusive environment for all students, including those with disabilities. The university's access schemes, services, and resources help to ensure that all students have the opportunity to succeed.
+    Here are some specific examples of how TSTU has helped students with disabilities succeed:
+    In 2022, a student with a visual impairment graduated from TSTU with a degree in engineering. The student was able to succeed thanks to the university's accessible campus, academic accommodations, and mentoring program.
+    In 2023, a student with a hearing impairment graduated from TSTU with a degree in business. The student was able to succeed thanks to the university's accessible campus, academic accommodations, and targeted support services.
+    TSTU is committed to helping all students succeed, regardless of their abilities. The university's access schemes, services, and resources are helping to make this goal a reality.
     `,
     image: climate11,
+  },
+  {
+    id: 11,
+    title: `TSTU's On-Campus Accommodation and Reasonable Accommodation Policy for Students with Disabilities, Supported by Adequate Funding`,
+    text: `
+    TSTU offers on-campus accommodation for people with disabilities and has a reasonable accommodation policy or strategy for people with disabilities, including adequate funding:
+On-campus accommodation: TSTU offers on-campus accommodation for students with disabilities. This accommodation is designed to be accessible to people with all types of disabilities. Some examples of on-campus accommodation for people with disabilities include:
+Wheelchair-accessible rooms
+Rooms with visual or hearing accommodations
+Rooms with other specialized accommodations
+Reasonable accommodation policy: TSTU has a reasonable accommodation policy that is designed to ensure that all students with disabilities have the opportunity to succeed. The policy outlines the types of accommodations that the university will provide to students with disabilities, and it also specifies how students can request accommodations.
+Adequate funding: TSTU has adequate funding to support its reasonable accommodation policy. The university allocates a significant amount of funding each year to provide accommodations to students with disabilities. This funding is used to pay for things like on-campus accommodation, academic accommodations, and targeted support services.
+Here are some specific examples of how TSTU has provided on-campus accommodation and reasonable accommodations to students with disabilities:
+In 2022, a student with a visual impairment was provided with a wheelchair-accessible room on campus. The student was also provided with a note-taker and a scribe to help them with their classes.
+In 2023, a student with a hearing impairment was provided with a room with visual accommodations. The student was also provided with a sign language interpreter to help them with their classes.
+TSTU is committed to providing on-campus accommodation and reasonable accommodations to students with disabilities. The university's policies and funding ensure that all students have the opportunity to succeed, regardless of their abilities.
+    `,
+    image: climate12,
   },
   {
     id: 12,
@@ -172,7 +196,7 @@ Here are some specific examples of how TSTU has helped students with disabilitie
 TSTU is committed to helping all students succeed, regardless of their abilities. The university's access schemes, services, and resources are helping to make this goal a reality.
 
     `,
-    image:climate12,
+    image:climate13,
   },
   {
     id: 13,
@@ -191,7 +215,7 @@ TSTU is committed to helping all students succeed, regardless of their abilities
     TSTU is committed to providing on-campus accommodation and reasonable accommodations to students with disabilities. The university's policies and funding ensure that all students have the opportunity to succeed, regardless of their abilities.
     
     `,
-    image: climate13,
+    image: climate14,
   },
   {
     id: 14,
@@ -210,7 +234,7 @@ TSTU is committed to helping all students succeed, regardless of their abilities
     TSTU is committed to providing on-campus accommodation and reasonable accommodations to students with disabilities. The university's policies and funding ensure that all students have the opportunity to succeed, regardless of their abilities.
     
     `,
-    image: climate14,
+    image: climate15,
   },
   {
     id: 15,
@@ -228,7 +252,7 @@ TSTU is committed to helping all students succeed, regardless of their abilities
     TSTU is committed to helping its students, faculty, and staff live healthy and fulfilling lives. The university's on-campus and local health and wellbeing services help to ensure that everyone has the resources they need to make healthy food choices.
     
     `,
-    image: climate15,
+    image: climate16,
   },
   {
     id: 16,
@@ -277,7 +301,7 @@ TSTU is committed to helping all students succeed, regardless of their abilities
     TSTU is committed to helping its students, faculty, and staff live healthy and fulfilling lives. The university's health and wellbeing services, including access to physical health-care services and information and education services, help to ensure that everyone has the resources they need to stay healthy and well.
     
     `,
-    image: climate16,
+    image: climate1616,
   },
   {
     id: 17,
@@ -333,7 +357,7 @@ Here are some specific examples of how TSTU has helped students, faculty, and st
 TSTU is committed to helping its students, faculty, and staff make informed decisions about their sexual and reproductive health. The university's sexual and reproductive health-care services and information and education resources help to ensure that everyone has the resources they need to make healthy choices.
 
     `,
-    image: climate17,
+    image: climate18,
   },
   {
     id: 18,
@@ -349,7 +373,7 @@ Here are some specific examples of how TSTU has helped students and staff with t
 TSTU is committed to helping its students and staff live healthy and fulfilling lives. The university's mental health support services help to ensure that everyone has the resources they need to cope with stress, anxiety, depression, grief, and other mental health challenges.
 
     `,
-    image: climate18,
+    image: climate19,
   },
   {
     id: 19,
@@ -368,7 +392,7 @@ Here are some specific examples of how TSTU's EDI committee, office, and officer
 TSTU is committed to continuing to work with its EDI committee, office, and officer to create a more inclusive campus community for all.
 
     `,
-    image: climate19,
+    image: climate20,
   },
   {
     id: 20,
@@ -386,7 +410,7 @@ Here are some specific examples of how TSTU's anti-discrimination and anti-haras
 TSTU is committed to continuing to work to ensure that its anti-discrimination and anti-harassment policies are effective in protecting all students, faculty, and staff.
 
     `,
-    image: climate20,
+    image: climate2020,
   },
   {
     id: 21,
@@ -487,87 +511,5 @@ TSTU is committed to continuing to provide training on ethical conduct to all em
     `,
     image: climate25,
   },
-  {
-    id: 26,
-    title: `
-    Cultivating Ethical Culture: The Role of the Office for Ethical Compliance at TSTU
-    `,
-    text: `
-    TSTU has an office for ethical compliance, which is headed by a designated official with oversight on ethical matters across the institution. Here is the evidence:
-•	Office for Ethical Compliance: TSTU has an office for ethical compliance, which is responsible for promoting ethical conduct and investigating allegations of unethical behavior. The office is headed by a designated official who is responsible for overseeing the office's activities.
-•	Designated Official: The designated official for ethical compliance is a senior member of the university's administration who has a strong background in ethics and compliance. The designated official is responsible for setting the university's ethical standards, ensuring that the university's ethical policies are followed, and investigating allegations of unethical behavior.
-•	Oversight on Ethical Matters: The designated official for ethical compliance has oversight on ethical matters across the university. This means that the designated official is responsible for ensuring that all employees at the university are aware of the university's ethical standards and that they are upholding those standards in their work.
-TSTU is committed to promoting an ethical organizational culture. The office for ethical compliance and the designated official play a vital role in helping the university to achieve its goal of a ethical workplace.
-Here are some specific examples of how the office for ethical compliance has helped TSTU to promote ethical conduct:
-•	In 2022, the office for ethical compliance launched a new training program on ethical conduct for all employees. The program covers the university's ethical values and how employees can uphold those values in their work.
-•	In 2023, the office for ethical compliance created a new reporting system for employees to report suspected unethical behavior. Employees can report concerns anonymously if they choose to do so.
-TSTU is committed to continuing to work to promote an ethical organizational culture. The university believes that a strong ethical culture is essential for creating a safe, respectful, and productive workplace.
-
-    `,
-    image:"",
-  },
-  {
-    id: 27,
-    title: `
-    Ensuring Accountability and Employee Support: TSTU's Internal Reporting System and Grievance Procedure
-        `,
-    text: `
-        TSTU has an internal reporting system to ensure the confidentiality of whistleblowers and a grievance procedure for staff concerning an employment matter. Here is the evidence:
-•	Internal Reporting System: TSTU has an internal reporting system that allows employees to report suspected unethical behavior anonymously. The system is designed to protect the identity of the whistleblower and to ensure that the complaint is investigated fairly and thoroughly.
-•	Grievance Procedure: TSTU has a grievance procedure that allows employees to file a complaint about an employment matter. The procedure is designed to provide a fair and impartial process for resolving employee complaints.
-•	Confidentiality: TSTU takes the confidentiality of whistleblowers and complainants very seriously. The university has policies and procedures in place to protect the identity of whistleblowers and complainants.
-TSTU is committed to creating a safe and supportive workplace for all employees. The university's internal reporting system and grievance procedure play a vital role in helping the university to achieve its goal of a safe and supportive workplace.
-Here are some specific examples of how TSTU has used its internal reporting system and grievance procedure to protect whistleblowers and complainants:
-•	In 2022, a staff member reported suspected unethical behavior by a supervisor. The staff member reported the concern anonymously through the university's internal reporting system. The university investigated the complaint and took appropriate action, including disciplining the supervisor.
-TSTU is committed to continuing to work to protect whistleblowers and complainants. The university believes that a safe and supportive workplace is essential for all employees.
-
-        `,
-    image: "",
-  },
-  {
-    id: 28,
-    title: `
-    Empowering Student Representation: TSTU's Recognized Student Union
-    `,
-    text: `
-     
-TSTU has a recognized student union that represents both undergraduate and postgraduate students at university level. This student union is connected/affiliated to a wider national student union body, and the student union elects its leadership, allowing students to vote. Here is the evidence:
-•	Recognized Student Union: TSTU's student union is recognized by the university and has a seat on the university's governing body. This means that the student union has a formal role in representing students' interests to the university.
-•	Represents Both Undergraduate and Postgraduate Students: TSTU's student union represents both undergraduate and postgraduate students. This means that the student union is able to advocate for the interests of all students at the university, regardless of their academic level.
-•	Connected/Affiliated to a Wider National Student Union Body: TSTU's student union is affiliated with the National Union of Students (NUS). This means that the student union is part of a larger network of student unions that can work together to advocate for students' interests at a national level.
-•	Elects Its Leadership: TSTU's student union elects its leadership every year. This means that students have a say in who represents them and how they are represented.
-TSTU's student union plays an important role in representing students' interests to the university and advocating for student rights. The student union is a valuable resource for students and helps to make their voices heard.
-Here are some specific examples of how TSTU's student union has advocated for students' interests:
-•	In 2022, the student union campaigned for the university to increase the number of scholarships available to students. The university agreed to increase the number of scholarships available.
-•	In 2023, the student union lobbied the university to improve the quality of the food in the student dining halls. The university agreed to improve the quality of the food in the dining halls.
-•	In 2024, the student union worked with the university to create a more inclusive campus environment for all students. The university implemented a number of policies and programs to create a more inclusive campus environment.
-TSTU's student union is committed to advocating for students' interests and making the university a better place for all students.
-
-    `,
-    image: "",
-  },
-  {
-    id: 29,
-    title: `
-    Financial Transparency: TSTU's Annual Financial Reports
-    `,
-    text: `
-     
-TSTU publishes its financial reports on an annual basis. Here are the evidences:
-•	Income: TSTU's income comes from a variety of sources, including tuition fees, government grants, and donations. The university publishes a detailed breakdown of its income in its annual financial report.
-•	Expenditure: TSTU's expenditure goes towards a variety of expenses, including salaries, benefits, teaching and research costs, and operations and maintenance costs. The university publishes a detailed breakdown of its expenditure in its annual financial report.
-•	Surplus: TSTU's surplus is the amount of money left over after all expenses have been paid. The university publishes its surplus in its annual financial report.
-TSTU's financial reports are available on the university's website. The reports are available to anyone who wants to see them.
-Here are some specific examples of how TSTU's financial reports are used:
-•	Students: Students can use TSTU's financial reports to see how their tuition fees are being spent.
-•	Faculty: Faculty can use TSTU's financial reports to see how their research grants are being spent.
-•	Staff: Staff can use TSTU's financial reports to see how their salaries and benefits are being paid for.
-•	Government: Government officials can use TSTU's financial reports to see how government grants are being spent.
-•	Donors: Donors can use TSTU's financial reports to see how their donations are being used.
-TSTU's financial reports are a valuable resource for anyone who wants to know more about how the university is funded and how its money is spent.
-
-
-    `,
-    image: "",
-  },
+ 
 ];
