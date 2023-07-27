@@ -25,6 +25,10 @@ import climate24 from "./climate24.png";
 import climate25 from "./climate25.png";
 import climate1616 from "./climate1616.jpg";
 import climate2020 from "./climate2020.jpg";
+import climate27 from "./climate27.jpg";
+import climate28 from "./climate28.jpg";
+
+
 
 
 export {
@@ -55,5 +59,6 @@ export {
   climate9,
   climate1616,
   climate2020,
-  
+  climate27,
+  climate28
 };

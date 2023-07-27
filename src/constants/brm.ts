@@ -17,7 +17,7 @@ import {
   partnership,
 } from "@/assets/static";
 
-import {action, cityEn, cleanEn, ecoEn, eduEn, energyEn, genderEn, healthEn, hungryEn, industryEn, partnerEn,povertyEn, reduceEn, responceEn, watterEn} from '@/assets/static/brm'
+import {action, cityEn, cleanEn, ecoEn, eduEn, energyEn, genderEn, healthEn, hungryEn, industryEn, landEn, partnerEn,peaceEn,povertyEn, reduceEn, responceEn, watterEn} from '@/assets/static/brm'
 
 export const brm = [
   {
@@ -62,6 +62,7 @@ export const brm = [
     image: clean,
     image_en:cleanEn
   },
+
   {
     id:7,
     name:"brm_title_7",
@@ -69,6 +70,13 @@ export const brm = [
     image: tuz,
     image_en:energyEn
   },
+  {
+    id:77,
+    name:"brm_title_77",
+     text:"brm_text_77",
+     image:'',
+     image_en:ecoEn
+   },
   {
     id:8,
     name:"brm_title_8",
@@ -116,14 +124,14 @@ export const brm = [
     name:"brm_title_14",
     text:"brm_text_14",
     image: eco,
-    image_en:ecoEn
+    image_en:landEn
   },
   {
     id:15,
     name:"brm_title_15",
     text:"brm_text_15",
     image: piece,
-    image_en:action
+    image_en:peaceEn
   },
   {
     id:16,

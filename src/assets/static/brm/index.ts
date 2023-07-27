@@ -13,7 +13,8 @@ import energyEn from "./energy.png";
 import cleanEn from "./clean.png";
 import cityEn from "./citiy.png";
 import action from "./action.png";
-import povertyEn from "./poverty.png"
+import peaceEn from "./peace.png";
+import povertyEn from "./poverty.png";
 
 export {
   watterEn,
@@ -31,5 +32,6 @@ export {
   partnerEn,
   reduceEn,
   responceEn,
-  povertyEn
+  peaceEn,
+  povertyEn,
 };
