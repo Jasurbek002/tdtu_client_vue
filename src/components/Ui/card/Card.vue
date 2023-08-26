@@ -18,15 +18,15 @@ console.log(data);
         width="300px"
         class="rounded-md"
         alt="example"
-        :src="`http://34.204.6.47:5000/${data?.image}`"
+        :src="data?.image"
       />
     </template>
     <template #actions>
       <like-outlined key="like" />
-      <a target="_blank" :href="data?.link">
+      <a target="_blank" :href="'/'">
         <eye-outlined key="eye" />
       </a>
     </template>
-    <a-card-meta title="news" :description="data?.title_uz" />
+    <a-card-meta :title="data?.title" :description="data?.text.slice(0,60) + '...'" />
   </a-card>
 </template>

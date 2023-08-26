@@ -24,7 +24,7 @@ import news4 from "./png/news4.png";
 // partners
 import part1 from "./unoptimized/gov.png";
 import part2 from "./unoptimized/dtm.jpg";
-import part3 from "./unoptimized/oliy.jpg";
+import part3 from "./unoptimized/innologo.png";
 import part4 from "./unoptimized/ziyo.png";
 
 // lobaratory

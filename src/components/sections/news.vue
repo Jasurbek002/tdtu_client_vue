@@ -4,23 +4,27 @@ import Card from "../Ui/card/Card.vue";
 import DataService from "@/services/DataService";
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
-const {t,locale} = useI18n();
+import { useDataStore } from "@/stores/news";
+const { t, locale } = useI18n();
+const store = useDataStore();
 interface News {
-  image: string
-  link: string
-  new_id: number
-  title_en: string
-  title_uz: string
+  image: string;
+  link: string;
+  new_id: number;
+  title_en: string;
+  title_uz: string;
 }
 const news = ref<News[]>([]);
 DataService.getData("/news").then((res) => {
-  news.value = res.data.data
+  news.value = res.data.data;
 });
+
+const localeNews = store.getnews
 </script>
 
 <template>
   <Row :label="t('news_title')" styles="bg">
-    <Card v-for="(el, i) of news" :data="el" :key="i" />
+    <Card v-for="(el, i) of localeNews" :data="el" :key="i" />
   </Row>
 </template>
 

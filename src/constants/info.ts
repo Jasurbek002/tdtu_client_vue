@@ -1,4 +1,16 @@
-export const infoDoctarant = [];
+export const infoDoctarant = [
+  `Ilmiy tadqiqotlar, innovatsiyalar va ilmiy-pedagogik kadrlarni tayyorlash bo‘limining asosiy maqsadi - mamlakat ilm-fani taraqqiyotini yanada rivojlashtirish maqsadida Respublika iqtisodiyotini ustuvor yo‘nalishlari bo‘yicha ilmiy-tadqiqot ishlarini olib borishni yo‘lga qo‘yib, falsafa doktori (PhD) va fan doktori (DSc)larni tayyorlash orqali universitet ilmiy salohiyatini yuksaltirishdan iborat.`,
+  `  - universitet professor-o‘qituvchilari tomonidan kunning ikkinchi yarmida kafedralarda olib borilayotgan ilmiy-tadqiqot ishlarini muvofiqlashtirish va ish yurituvchi xujjatlarning to‘g‘ri olib borilishini nazorat kilib borish; `,
+  `- fundamental va ilmiy-amaliy tadqiqotlar, innovatsion loyihalar tanlovlarida professor-o‘qituvchilarning ishtirok etish uchun yil davomida fakultet dekanlari, kafedra mudirlari, yetakchi professor-o‘qituvchilar va yosh olimlar bilan hamkorlikda ishlash; `,
+  `- stajyor-tadqiqotchi, tayanch doktorant, doktorant va mustaqil izlanuvchilarni qabul qilish rejasini O‘zbekiston Respublikasi Oliy ta’lim, fan va innovatsiyalar vazirligi tomonidan belgilangan buyruq asosida tuzish; `,
+  `- stajyor-tadqiqotchi, tayanch doktorant, doktorant va mustaqil izlanuvchilarning doktorlik dissertatsiyasi mavzularini respublika iqtisodiyotining ustuvor yo‘nalishlari bo‘yicha amalga oshiriladigan fundamental va amaliy, innovatsion loyihalar hamda xo‘jalik shartnomasi bo‘yicha olib borilayotgan ilmiy loyihalar yo‘nalishlariga mos bo‘lishini ta’minlash; `,
+  `- stajyor-tadqiqotchi, tayanch doktorant, doktorant va mustaqil izlanuvchilarning yillik ish rejalari asosida attestatsiyadan o‘z vaqtida o‘tishlarini ta’minlash;`,
+  ` - professor-o‘qituvchilar, stajyor-tadqiqotchi, tayanch doktorant, doktorant va mustaqil izlanuvchilar tomonidan ilmiy-tadqiqot va ilmiy-texnik ishlanmalarni bajarish va ularning natijalarini amaliyotga joriy etish ishlarida ko‘maklashish; `,
+  `- stajyor-tadqiqotchi, tayanch doktorant, doktorant va mustaqil izlanuvchilar uchun ilmiy seminarlar va o‘quv-treninglar tashkil kilish; `,
+  `- TDTUda tayanch doktorant, doktorant va mustaqil izlanuvchilar uchun malakaviy imtihon topshiriladigan fanlardan o‘quv mashg‘ulotlarini reja asosida tashkil etish; `,
+  `- yosh olimlar uchun ilmiy mavzulari bo‘yicha mo‘ljallangan ixtiro va tuziladigan EHM dasturlariga meyoriy hujjatlar olishlari uchun sharoitlar yaratish; `,
+  `- yosh olimlarni ilmiy yo‘nalishlari bo‘yicha chet el yetakchi oliy o‘quv yurtlari, ilmiy markazlari va ishlab chiqarish korxonalariga stajirovka va xizmat safariga yuborishni tashkil qilish.`,
+];
 
 export const infoScience = [
   `Universitet jamoasining, ilmiy bo'limlarining va alohida xodimlarining mavjud ilmiy salohiyatidan to'la va samarali foydalanish hamda salohiyatini yanada oshirish maqsadida, ular uchun kerakli iqtisodiy, ijtimoiy va ishlab chiqarish shart-sharoitlarini yaratib berish bo’yicha takliflar berish;`,
@@ -31,7 +43,6 @@ export const infoStudents = [
   `O’zlashtirishi yuqori bo’lgan xamda ilmiy-tadqiqot ishlarida faol ishtirok etayotgan iqtidorli yoshlarni rag’batlantirish;`,
   `Iqtidorli yoshlarning ilmiy texnik markazi va kichik akademiya faoliyatini tashkil etish xamda ular faoliyatini rivojlantirish`,
   `Iqtidorli yoshlarga uchun dasturiy maxsulotlarni ixtiro uchun patent xujjatlarini rasmiylashtirishda amaliy ko’maklashish`,
-
 ];
 
 export const infoShopping = [
@@ -40,5 +51,5 @@ export const infoShopping = [
   `bozorni tizimli tahlil qilish va innovatsion mahsulotlarga (ishlarga, xizmatlarga) talabni o‘rganish, o‘zini oqlash muddatini, rentabellikni va innovatsion mahsulotlarni tijoratlashtirish bilan bog‘liq risklarni baholash;`,
   `tadbiq qilishga tayyor va yuqori tijoratlashtirish salohiyatiga ega innovatsion loyihalarni tanlash va tijoratlashtirishni amalga oshirish;`,
   `innovatsion loyihalarni tijoratlashtirish uchun investorlar, hamkorlar va boshqa qiziqish bildirgan shaxslarni jalb qilish;`,
-  `yangi texnologiyalarni joriy qilish va innovatsion maxsulot ishlab chiqarish maqsadida sanoat korxonalari bilan hamkorlik o‘rnatish.`
-]
+  `yangi texnologiyalarni joriy qilish va innovatsion maxsulot ishlab chiqarish maqsadida sanoat korxonalari bilan hamkorlik o‘rnatish.`,
+];

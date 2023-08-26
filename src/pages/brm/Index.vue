@@ -3,7 +3,8 @@ import { brm } from '@/constants/brm';
 import { ArrowRightOutlined} from '@ant-design/icons-vue';
 import { useI18n } from "vue-i18n";
 import { useThemaStore } from '@/stores/thema';
-
+import Navigation from "@/components/Ui/navigation/Navigation.vue";
+import { navlinks } from '@/constants/navlink';
 const {t,locale} = useI18n();
 
 
@@ -23,6 +24,9 @@ const store = useThemaStore();
         <RouterLink :to="`/brm/list/${el.id}`" class="flex items-center w-[150px] border-2 p-1 justify-evenly hover:border-cyan-400">{{ t('brm_btn') }}<ArrowRightOutlined /></RouterLink>
        </div>
     </div>
+
+    <Navigation :data="navlinks[7].items" />
+
   </div>
 </template>
 

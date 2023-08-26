@@ -4,9 +4,8 @@ import Row from "@/components/Ui/wrapper/Row.vue";
 import { ref } from "vue";
 import DataService from "@/services/DataService";
 
-
- interface Doc {
-    type:string
+interface Doc {
+  type: string;
 }
 let data = ref([
   {
@@ -18,9 +17,9 @@ let data = ref([
   },
 ]);
 
-DataService.getData('/doctorate').then(res => {
- data.value = res?.data?.data?.filter((el:Doc) => el.type === 'independet')
-})
+DataService.getData("/doctorate").then((res) => {
+  data.value = res?.data?.data?.filter((el: Doc) => el.type === "independet");
+});
 
 const columns = [
   {
@@ -37,7 +36,6 @@ const columns = [
     dataIndex: "special",
   },
 ];
-
 </script>
 
 <template>
