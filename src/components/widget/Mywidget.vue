@@ -4,16 +4,16 @@ import { part1, part2, part3, part4 } from "@/assets/static";
 <template>
   <div class="logos" ref="logos">
     <div class="logos-slide" ref="logos-slide">
-     <img :src="part1" alt="img">
-     <img :src="part2" alt="img">
-     <img :src="part3" alt="img">
-     <img :src="part4" alt="img">
+     <a target="_blank" href="https://my.gov.uz/"><img :src="part1" alt="img"></a>
+     <a target="_blank" href="https://uzbmb.uz/"><img :src="part2" alt="img"></a>
+     <a target="_blank" href="https://mininnovation.uz/"><img :src="part3" alt="img"></a>
+     <a target="_blank" href="https://ziyonet.uz/"><img :src="part4" alt="img"/></a>
     </div>
     <div class="logos-slide" ref="logos-slide">
-     <img :src="part1" alt="img">
-     <img :src="part2" alt="img">
-     <img :src="part3" alt="img">
-     <img :src="part4" alt="img">
+      <a target="_blank" href="https://my.gov.uz/"><img :src="part1" alt="img"></a>
+     <a target="_blank" href="https://uzbmb.uz/"><img :src="part2" alt="img"></a>
+     <a target="_blank" href="https://mininnovation.uz/"><img :src="part3" alt="img"></a>
+     <a target="_blank" href="https://ziyonet.uz/"><img :src="part4" alt="img"/></a>
     </div>
   </div>
 </template>
@@ -74,12 +74,21 @@ import { part1, part2, part3, part4 } from "@/assets/static";
  justify-content: space-evenly;
  align-items: center;
   animation: 35s slide infinite linear;
-  @apply mx-[200px];
+
+}
+
+.logos-slide a{
+  height: 100px;
+  width: 100px;
+  margin: 0 100px;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .logos-slide img {
   height: 100px;
-  margin: 0 100px;
+  width: 100px;
   border-radius: 50%;
+  background-color: aqua;
 }
 </style>

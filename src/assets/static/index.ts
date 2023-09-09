@@ -72,6 +72,8 @@ import piece from "./unoptimized/piece.png";
 import responsible from "./unoptimized/responsible.png";
 import tuz from "./unoptimized/tuz.png"
 
+import cbg from "./jpg/cbg.png"
+
 export {
   unrich,
   education,
@@ -127,5 +129,6 @@ export {
   national1,
   national2,
   national3,
-  green
+  green,
+  cbg
 };

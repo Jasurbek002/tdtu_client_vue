@@ -21,6 +21,7 @@ import {
   climate25,
   climate27,
   climate28,
+  climate29,
   climate3,
   climate4,
   climate5,
@@ -312,6 +313,34 @@ The EDI officer worked with the student government to create a new diversity and
 TSTU is committed to continuing to work with its EDI committee, office, and officer to create a more inclusive campus community for all.
     `,
     image: climate17,
+  },
+  {
+    id:29,
+    title:"TSTU's Carbon Emissions: 2023 Report",
+    text:`
+    TSTU's Carbon Emissions: 2023 Report
+ Tashkent State Technical University
+Scope 1 and 2 Carbon Emissions
+September 2023
+Total Scope 1 and 2 carbon emissions: 10,000 tCO2e  
+Scope 1 emissions: 2,000 tCO2e
+Scope 2 emissions: 8,000 tCO2e
+Sources of Scope 1 emissions:
+•	Burning of fossil fuels in vehicles and generators
+Sources of Scope 2 emissions:
+•	Purchase of electricity from the grid
+Recommendations:
+•	Invest in renewable energy
+•	Improve energy efficiency
+•	Reduce reliance on fossil fuels
+Education and outreach:
+•	Educate students and staff about sustainability
+•	Encourage them to take steps to reduce their own carbon footprints
+Progress:
+TSTU is making progress in reducing its carbon emissions. The university is committed to continuing these efforts and to becoming a more sustainable institution.
+
+    `,
+    image:climate29
   },
   {
     id: 16,

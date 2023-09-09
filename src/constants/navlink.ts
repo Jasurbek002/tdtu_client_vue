@@ -34,7 +34,7 @@ export const navlinks = [
     to: "/science",
     items: [
       {
-        name: "ILMIY-TEXNIK kengash",
+        name: "Ilmiy-texnik kengash",
         to: "/science/tech",
       },
       {
@@ -107,7 +107,7 @@ export const navlinks = [
         to: "/shopping/startup",
       },
       {
-        name: "Muommoli ishlanmalar royxati",
+        name: "Muammoli ishlanmalar royxati",
         to: "/shopping/problems",
       },
     ],
@@ -141,7 +141,7 @@ export const navlinks = [
         to: "/brm/action",
       },
       {
-        name: "sustainable policies",
+        name: "Sustainable policies",
         to: "/brm/policie",
       }
     ],

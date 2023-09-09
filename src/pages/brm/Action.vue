@@ -3,7 +3,7 @@ import Row from "@/components/Ui/wrapper/Row.vue";
 import { climate } from "@/constants/climate";
 import { ref } from "vue";
 const data = ref<any>([]);
-data.value = climate.slice(0, 15);
+data.value = climate.slice(0, 16);
 </script>
 
 <template>

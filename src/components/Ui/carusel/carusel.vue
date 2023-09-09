@@ -4,8 +4,8 @@ import type { CarouselProps } from "ant-design-vue";
 import DataService from "@/services/DataService";
 import { useI18n } from "vue-i18n";
 import { useDataStore } from "@/stores/news";
-const {t,locale} = useI18n();
-const store = useDataStore()
+const { t, locale } = useI18n();
+const store = useDataStore();
 interface Bunner {
   title_uz: string;
   title_en: string;
@@ -15,14 +15,14 @@ interface Bunner {
 }
 const bunner = ref<Bunner[]>([]);
 
-const localSilide = store.getnews
+const localSilide = store.getnews;
 
 DataService.getData("/banner").then((res) => {
   bunner.value = res.data.data;
 });
 
 const visible = ref<any>(false);
- const dotPosition = ref<CarouselProps["dotPosition"]>("top")
+const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 </script>
 
 <template>
@@ -33,7 +33,6 @@ const visible = ref<any>(false);
       dot-position="left"
       :loop="true"
     >
-
       <a-carousel-slide v-if="false" v-for="(silide, i) of bunner" :key="i">
         <div class="box">
           <div
@@ -42,12 +41,12 @@ const visible = ref<any>(false);
             <h1
               class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 uppercase border-b-2 border-green-900 my-10"
             >
-              {{ locale === 'uz' ? silide?.title_uz : silide.title_en }}
+              {{ locale === "uz" ? silide?.title_uz : silide.title_en }}
             </h1>
             <p
               class="text-sm ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 border-green-700 border-b-2 my-10"
             >
-              {{ locale === 'uz' ? silide?.text_uz : silide.text_en }}
+              {{ locale === "uz" ? silide?.text_uz : silide.text_en }}
             </p>
           </div>
 
@@ -103,7 +102,7 @@ const visible = ref<any>(false);
   overflow: hidden;
 }
 .bg {
-  background-image: url("@/assets/static/jpg/bg.jpg");
+  background-image: url("@/assets/static/jpg/cbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;

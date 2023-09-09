@@ -105,14 +105,14 @@ export const empShopping = [
     phone: "+99 890 864 56 57",
     email: "urajapbaev@gmail.com",
   },
-  {
-    image: jasur,
-    fullname: "Turg'unov Jasurbek Alisher o'g'li",
-    postsia: "Muxandis",
-    exprence: "dushanba - juma",
-    phone: "+99 890 826 67 77",
-    email: "jasurbekturgunov@gmail.com",
-  },
+  // {
+  //   image: jasur,
+  //   fullname: "Turg'unov Jasurbek Alisher o'g'li",
+  //   postsia: "Muxandis",
+  //   exprence: "dushanba - juma",
+  //   phone: "+99 890 826 67 77",
+  //   email: "jasurbekturgunov@gmail.com",
+  // },
   {
     image: dilshod,
     fullname: "Saminjonov Dilshodjon Muzaffar o'g'li",
