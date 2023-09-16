@@ -11,60 +11,96 @@ export const finace = [
 
 export const courses = [
   {
-    title: "3D Modellash",
-    text: "Bu to'garakda siz Compass, AutoCad, 3D max dasturlar bo'yicha ishlashni o'rganasiz",
+    title: "Yosh petrograf",
+    location: "Geologiya, mineralogiya va petrografiya (431-xona)",
+    teacher:"Yunusova Oqibat Muxtorovna",
+    time:"14:00",
+    tel:"97 425 6485"
   },
   {
-    title: "Issiqlik energetika yulduzlari",
-    text: "Bu to'garakda siz Issiqlik energetikasi haqidagi bilimlarni egallaysiz",
+    title: "Young engineer club",
+    location: "Elektr energetikasi fakulteti (103-xona)",
+    teacher:"Normuratov Bahrom Ravshanovich",
+    time:"14:00",
+    tel:"90 096 8891"
   },
   {
-    title: "Konstruktor",
-    text: "Bu to'garakda siz Konstruktorlik haqidagi bilimlarni egallaysiz",
-  },
-  {
-    title: "Qum-gilli qoliplar asosidagi yangi texnologiyalar va jixozlar",
-    text: "Bu to'garakda siz KQum-gilli qoliplarga oid yangi texnolagiyalar bilan tanishasiz",
-  },
-  {
-    title: "Intellektual va raqamli metrologiya",
-    text: "Bu to'garakda siz Intellektual va raqamli metrologiya oid yangi bilimlarni o'rganasiz",
+    title: "Issiqlik energetika yoshlari",
+    location: "Issiqlik elektr energetika fakulteti (108-xona)",
+    teacher:"Tursunov Muxiddin Choriyevich",
+    time:"14:00",
+    tel:"94 687 8700"
   },
   {
     title: "Kompyuter olami",
-    text: "Kompyuter olami ilmiy to'garagda kompiyuter muxandisligini o'rganasiz",
+    location: "Elektronika aftamatika fakulteti (226-xona)",
+    teacher:"Fayzullayev Ubaydulla Sagdullaevich",
+    time:"10:00",
+    tel:"97 780 1014"
+  },
+  {
+    title: "Intellektual va raqamli metrologiya",
+    location: "Mexanika fakulteti (113-xona)",
+    teacher:"Shakirov Shuhrat Musayevich",
+    time:"14:00-17:00",
+    tel:"93 565 6793"
+  },
+  {
+    title: "Kasbim faxrim",
+    location: "Geologiya-qidiruv va kon-metallurgiya (426-xona)",
+    teacher:"Xamroqulova Dilnavoz Fayziyevna",
+    time:"14:00",
+    tel:"90 617 7138"
   },
   {
     title: "Yosh metallurg",
-    text: "Yosh metallurg ilmiy to'garagda siz ushbu sohani chuqurroq o'rgansiz",
+    location: "Geologiya-qidiruv va kon-metallurgiya (41-xona)",
+    teacher:"Hojiyev Shohruh Toshpulatovich",
+    time:"14:00",
+    tel:"90 188 8419"
   },
   {
     title: "Yosh prokatchilar",
-    text: "Yosh prokatchilar ilmiy to'garagda ushbu sohaga doir amaliy ishlar qilasiz",
+    location: "Metallarga bosim bilan ishlov berish kafedrsi (9-xona)",
+    teacher:"Rayimqulov Sanjarbek Xayrulla o‘g‘li",
+    time:"13:50",
+    tel:"91 774 9798"
   },
   {
-    title: "Yosh texnik",
-    text: "Yosh texnik ilmiy to'garagda ushbu sohaga doir amaliy ishlar qilasiz",
+    title: "Yosh mutaxassis",
+    location: "Mexanika fakulteti (9b-xona)",
+    teacher:"Qoraboyev Asatilla Sunnatillayevich",
+    time:"14:30",
+    tel:"97 002 8275"
   },
   {
     title: "Yosh elektr ta’minotchi",
-    text: "Yosh elektr ta’minotchi ilmiy to'garagda ushbu sohaga doir amaliy ishlar qilasiz",
+    location: "Elektr ta’minoti kafedrasi (323-xona)",
+    teacher:"Mahmutxonov Sultonxo’ja Komolg‘oja o’g’li",
+    time:"14:00",
+    tel:"94 164 44 41"
   },
   {
-    title: "Yosh tarixchi",
-    text: "Yosh tarixchi ilmiy to'garagda tajribali ustozlardan ta'lim olasiz",
+    title: "Mashinashunoslik detalchi",
+    location: "Mashinasozlik fakulteti (320-xona)",
+    teacher:"Irgashev Bexzod Amirqulovich",
+    time:"15:00",
+    tel:"90 937 3366"
   },
   {
-    title: "Yosh energetik",
-    text: "Yosh energetik ilmiy to'garagda siz o'z tajribangizni oshirasiz",
+    title: "3D modellash",
+    location: "Mashinasozlik fakulteti ",
+    teacher:"Boboniyozov Ergash Aminboy o’g’li",
+    time:"10:00",
+    tel:"93 575 2341"
   },
+
   {
-    title: "Young engineering club",
-    text: "Young engineering club ilmiy to'garagda siz sohaga oid mutahasizlar bilan fikir almashasiz",
-  },
-  {
-    title: "Yosh sanoatchilar",
-    text: "Young engineering club ilmiy to'garagda siz sanoat korxonalariga ekskursiya qilasiz",
+    title: "Korporativ boshqaruv",
+    location: "Muhandislik texnologiyalari fakulteti (505-xona)",
+    teacher:"Xashimova Salima Nigmatullayevna",
+    time:"14:00",
+    tel:"91 162 6431"
   },
 ];
 
@@ -82,22 +118,21 @@ export const courses_text = `TITning asosiy maqsadi talabalarning ilmiy-tadqiqot
     xo‘jalik shartnomalari doirasidagi ilmiy-tadqiqot ishlarini bajarishga jalb etish; - rejalashtirilgan ilmiy anjumanlar, tanlovlar, ko‘rgazmalar va boshqalar 
     haqida talabalarni o‘z vaqtida xabardor qilish va ularda ishtirok etish imkoniyatini yaratish.`;
 
-
-    export const olimp = [
-        {
-            title: "1.Respublika fan olimpiadalari",
-            text: "Universitet sararlash bosqichidan o'tganlar uchun",
-          },
-          {
-            title: "2.Universitet fan olimpiadalari",
-            text: "Universitet o'quvchilari uchun",
-          },
-          {
-            title: "3.Xalqaro fan olimpiadalari",
-            text: "Respublika Bosqichidan o'tganlar uchun",
-          },
-          {
-            title: "4.Maktab bitiruvchilari uchun kampuytr",
-            text: "Maktab bitruvchilari uchun",
-          },
-    ]
+export const olimp = [
+  {
+    title: "1.Respublika fan olimpiadalari",
+    text: "Universitet sararlash bosqichidan o'tganlar uchun",
+  },
+  {
+    title: "2.Universitet fan olimpiadalari",
+    text: "Universitet o'quvchilari uchun",
+  },
+  {
+    title: "3.Xalqaro fan olimpiadalari",
+    text: "Respublika Bosqichidan o'tganlar uchun",
+  },
+  {
+    title: "4.Maktab bitiruvchilari uchun kampuytr",
+    text: "Maktab bitruvchilari uchun",
+  },
+];

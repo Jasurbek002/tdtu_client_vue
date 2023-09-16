@@ -8,11 +8,13 @@ import Col from "@/components/Ui/wrapper/Col.vue";
 import Aos from "aos";
 import Navigation from "@/components/Ui/navigation/Navigation.vue";
 import { navlinks } from "@/constants/navlink";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 Aos.init();
 </script>
 
 <template>
-  <Row label="XALQARO REYTING BO'LIMI">
+  <Row :label="t('rayting.name')">
     <Col>
       <Employe
         v-if="empReyting.length !== 0"
@@ -31,7 +33,7 @@ Aos.init();
       data-aos-anchor="#example-anchor"
       data-aos-offset="500"
       data-aos-duration="500"
-      title="Xalqaro reyting bo'limi quydagi vazifalarni bajaradi:"
+      :title="t('rayting.title')"
       :info="infoReyting"
     />
     <Navigation :data="navlinks[3].items" />

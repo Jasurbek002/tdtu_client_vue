@@ -11,19 +11,19 @@ export const navlinks = [
     to: "/doctarant",
     items: [
       {
-        name: "Mustaqil izlanuvchilar",
+        name: "doc.idependent",
         to: "/doctarant/independent",
       },
       {
-        name: "Tayanch doktorant",
+        name: "doc.support",
         to: "/doctarant/support",
       },
       {
-        name: "Stajor tadqiqotchi",
+        name: "doc.intern",
         to: "/doctarant/intern",
       },
       {
-        name: "DSc doktorant",
+        name: "doc.ds",
         to: "/doctarant/ds",
       },
     ],
@@ -34,19 +34,19 @@ export const navlinks = [
     to: "/science",
     items: [
       {
-        name: "Ilmiy-texnik kengash",
+        name: "science.tech",
         to: "/science/tech",
       },
       {
-        name: "Ilmiy loyihalar",
+        name: "science.project",
         to: "/science/projects",
       },
       {
-        name: "Ilmiy laboratoriya",
+        name: "science.lob",
         to: "/science/laboratory",
       },
       {
-        name: "Intelektual mulk obyektlari",
+        name: "science.obj",
         to: "/science/objects",
       },
     ],
@@ -57,19 +57,19 @@ export const navlinks = [
     to: "/reyting",
     items: [
       {
-        name: "QS Ranking",
+        name: "rayting.qs",
         to: "/reyting/qs",
       },
       {
-        name: "THE Ranking",
+        name: "rayting.the",
         to: "/reyting/the",
       },
       {
-        name: "Milliy reyting",
+        name: "rayting.national",
         to: "/reyting/national",
       },
       {
-        name: "Greenmetric",
+        name: "rayting.grc",
         to: "/reyting/green",
       },
     ],
@@ -80,15 +80,15 @@ export const navlinks = [
     to: "/students",
     items: [
       {
-        name: "Stipendiyalar",
+        name: "student.scholl",
         to: "/students/finances",
       },
       {
-        name: "To'garaklar",
+        name: "student.circle",
         to: "/students/courses",
       },
       {
-        name: "Olimpiadalar",
+        name: "student.olyimp",
         to: "/students/olympics",
       },
     ],
@@ -99,15 +99,15 @@ export const navlinks = [
     to: "/shopping",
     items: [
       {
-        name: "Xo'jalik shartnomalar",
+        name: "shooping_item.eco",
         to: "/shopping/contracts",
       },
       {
-        name: "Start-up loyixalar",
+        name: "shooping_item.start",
         to: "/shopping/startup",
       },
       {
-        name: "Muammoli ishlanmalar royxati",
+        name: "shooping_item.list",
         to: "/shopping/problems",
       },
     ],
@@ -137,11 +137,11 @@ export const navlinks = [
     to: "/brm",
     items: [
       {
-        name: "Sustainable action",
+        name: "brm_item.action",
         to: "/brm/action",
       },
       {
-        name: "Sustainable policies",
+        name: "brm_item.politic",
         to: "/brm/policie",
       }
     ],

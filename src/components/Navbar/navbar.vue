@@ -20,7 +20,7 @@ const { t, locale } = useI18n();
           :key="i"
           :to="items.to"
         >
-          {{ items.name }}
+          {{ t(items.name) }}
         </RouterLink>
       </div>
     </li>
