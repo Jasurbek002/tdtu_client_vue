@@ -9,16 +9,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import My from "./components/myInfo/My.vue";
 import TextWidgetVue from "./components/widget/TextWidget.vue";
-import Loader from "@/components/Ui/Loader/Loader.vue"
+import Loader from "@/components/Ui/Loader/Loader.vue";
 import { ref } from "vue";
-const clas = ref('')
-window.addEventListener('load',() =>{
-clas.value = 'z-[60]'
-})
+const clas = ref("");
+window.addEventListener("load", () => {
+  clas.value = "z-[60]";
+});
 
 setTimeout(() => {
-clas.value = 'z-[0]'
-},3000)
+  clas.value = "z-[0]";
+}, 3000);
 
 AOS.init();
 </script>

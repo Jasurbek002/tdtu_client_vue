@@ -15,10 +15,16 @@
     >
       <LinkedinOutlined class="icon" />
     </a>
-    <a target="_blank" href="https://www.instagram.com/">
+    <a
+      target="_blank"
+      href="https://www.instagram.com/"
+    >
       <InstagramOutlined class="icon" />
     </a>
-    <a target="_blank" href="https://t.me/jasurbekitblog">
+    <a
+      target="_blank"
+      href="https://t.me/jasurbekitblog"
+    >
       <SendOutlined class="icon" />
     </a>
   </div>

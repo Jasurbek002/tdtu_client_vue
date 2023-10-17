@@ -6,13 +6,25 @@ const { t, locale } = useI18n();
 
 <template>
   <nav
-    class="w-full lg:flex md:hidden sm:hidden ssm:hidden flex items-center justify-evenly bg-grenn h-[60px] sticky z-50 mt-0 top-0"
+    class="w-full lg:flex md:hidden sm:hidden ssm:hidden flex items-center justify-evenly bg-grenn sticky inset-0 z-50 mt-0 top-0"
   >
-    <li v-for="links of navlinks" :key="links.id" class="list-none relative">
-      <RouterLink class="menu" :to="links.to">{{ t(links.name) }}</RouterLink>
+    <li
+      v-for="links of navlinks"
+      :key="links.id"
+      class="list-none list"
+    >
+      <RouterLink
+        class="menu"
+        :to="links.to"
+      >
+        <p class="m-0 py-4">
+          {{ t(links.name) }}
+        </p>
+      </RouterLink>
       <div
+        data-aos="zoom-in-up"
         v-if="links.items.length !== 0"
-        class="modal w-[250px] p-2 hidden items-start flex-col rounded-md bg-white opacity-0 absolute transform duration-700 ease"
+        class="modal w-[800px] p-8 hidden items-start flex-col rounded-sm bg-white opacity-0 absolute transform translate-y-[10px] duration-1000 ease-linear"
       >
         <RouterLink
           class="item"
@@ -29,7 +41,7 @@ const { t, locale } = useI18n();
 
 <style scoped>
 .menu {
-  @apply text-white text-base uppercase hover:text-gray-400;
+  @apply text-white text-base uppercase hover:text-gray-400 relative;
 }
 .modal {
   z-index: unset;
@@ -38,6 +50,7 @@ const { t, locale } = useI18n();
 .menu:hover ~ .modal {
   @apply opacity-100 flex;
 }
+
 .item {
   @apply text-cyan-700 text-xl my-1 text-start hover:text-black border-b-2 border-white hover:border-sky-200;
 }
