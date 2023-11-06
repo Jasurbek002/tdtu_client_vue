@@ -1,8 +1,8 @@
 <template>
   <div
-    class="w-full flex bg-green-600 h-[60px] items-center justify-evenly flex-wrap"
+    class="w-full flex bg-[#ECF0F8] border-t-2 border-[#64748B] h-[60px] items-center justify-evenly flex-wrap"
   >
-    <li class="text-xl list-none text-white">jasdev production</li>
+    <li class="text-xl list-none text-[#64748B]">Created by Jasurbek Turgunov</li>
     <a
       target="_blank"
       class="text-white text-xl hover:text-gray-900"
@@ -41,8 +41,8 @@ import {
 
 <style scoped>
 .icon {
-  color: white;
-  font-size: 40px;
+  color: #64748B;
+  font-size: 30px;
   border: none;
   @apply hover:text-gray-700 cursor-pointer transform ease-in-out duration-500;
 }

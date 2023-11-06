@@ -8,8 +8,10 @@ import MywidgetVue from "@/components/widget/Mywidget.vue";
 
 <template>
   <div>
-    <Carosel />
-    <News />
+    <div class="w-full h-[600px] flex items-center justify-around bg-white">
+      <Carosel />
+      <News />
+    </div>
     <Fuculty />
     <MywidgetVue />
     <Score
@@ -19,6 +21,5 @@ import MywidgetVue from "@/components/widget/Mywidget.vue";
       doctarnts="208"
       students="22000"
     />
-
   </div>
 </template>

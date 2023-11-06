@@ -7,7 +7,8 @@ const {t} = useI18n();
 </script>
 
 <template>
-      <h1 class="text-2xl font-bold text-white uppercase w-11/12 mx-auto rounded-md text-start p-1 bg-grenn">{{ t('fukulty') }}</h1>
+     <div class="w-full bg-white">
+        <h1 class="text-2xl font-bold text-[#010039] uppercase w-11/12 mx-auto rounded-md text-start p-1 ">{{ t('fukulty') }}</h1>
     <div class="fuculty w-11/12 justify-evenly my-5 py-10">
       
         <div 
@@ -19,6 +20,7 @@ const {t} = useI18n();
         </div>
 
     </div>
+     </div>
 </template>
 
 <style scoped>

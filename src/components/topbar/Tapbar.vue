@@ -48,18 +48,18 @@ const changeLanguage = (lang: string) => {
     <div class="topbar__togglebar">
       <div
         @click="store.setThmea"
-        class="w-8 h-8 lg:mb-2 md:mb-0 rounded-full flex items-center justify-center"
+        class="w-10 h-10  bg-[#F0F4FA] rounded-full p-1 cursor-pointer"
       >
         <img
-          class="w-full h-full rounded-full"
+          class="w-8 h-8 flex"
           :src="store.getThema ? moon : sun"
           alt="icon"
         />
       </div>
       <div class="relative">
         <GlobalOutlined
-          :style="`color: ${store.getThema ? 'black' : 'white'};`"
-          class="text-xl"
+          :style="`color: ${store.getThema ? '#206BDC' : 'white'};`"
+          class="icon"
         />
         <div class="absolute top-0">
           <a-select
@@ -77,8 +77,8 @@ const changeLanguage = (lang: string) => {
       class="lg:hidden md:flex sm:flex ssm:flex ml-5"
     >
       <MenuOutlined
-        :style="`color: ${store.getThema ? 'black' : 'white'};`"
-        :class="`text-xl cursor-pointer`"
+        :style="`color: ${store.getThema ? '#206BDC' : 'white'};`"
+        :class="`icon`"
       />
     </div>
     <a-modal v-model:visible="visible" title="Bo'limlar">
@@ -116,7 +116,18 @@ const changeLanguage = (lang: string) => {
     // @apply text-grenn font-bold uppercase md:hidden lg:flex sm:hidden ssm:hidden;
   }
   &__togglebar {
-    @apply flex items-center w-[100px] h-[80px] justify-around  rounded-lg md:ml-auto sm:ml-auto ssm:ml-auto lg:ml-0 sm:flex-row md:flex-row ssm:flex-row lg:flex-col;
+    @apply flex items-center w-[120px] h-[80px] justify-around  rounded-lg md:ml-auto sm:ml-auto ssm:ml-auto lg:ml-0 ;
   }
+}
+
+
+.icon{
+    color: #64748B;
+    font-size: 25px;
+    background-color: #F0F4FA;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    @apply  cursor-pointer transform ease-in-out duration-500; 
 }
 </style>

@@ -6,6 +6,10 @@ import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 import { useDataStore } from "@/stores/news";
 const { t, locale } = useI18n();
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 const store = useDataStore();
 interface News {
   image: string;
@@ -19,17 +23,31 @@ DataService.getData("/news").then((res) => {
   news.value = res.data.data;
 });
 
-const localeNews = store.getnews
+const localeNews = store.getnews;
 </script>
 
 <template>
-  <Row :label="t('news_title')" styles="bg">
-    <Card v-for="(el, i) of localeNews" :data="el" :key="i" />
-  </Row>
+  <div class="flex h-full justify-center flex-col">
+    <div
+      v-for="(el, i) of localeNews"
+      :data="el"
+      :key="i"
+      class="w-[500px] h-[160px] bg-white shadow flex items-center p-2 my-2 rounded-md justify-between"
+    >
+    <img class="w-[180px] mr-5 h-[140px] rounded-md" :src="el.image" alt="img/news">
+    <div>
+      <h2>{{ el.title.slice(0,60) }}...</h2>
+      <p>{{ el.text.slice(0,70) }}...</p>
+    </div>
+  </div>
+  
+  </div>
 </template>
 
 <style scoped>
 .bg {
+  width: 500px;
+  height: 400px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
@@ -37,4 +55,6 @@ const localeNews = store.getnews
     rgba(255, 255, 255, 1) 22%
   );
 }
+
+
 </style>

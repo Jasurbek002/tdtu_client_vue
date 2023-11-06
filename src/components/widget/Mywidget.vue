@@ -2,6 +2,7 @@
 import { part1, part2, part3, part4 } from "@/assets/static";
 </script>
 <template>
+    <h1 class="text-2xl pl-14 font-bold  bg-[#F0F4FA] text-[#010039] uppercase w-full text-start">Foydali havolalar</h1>
   <div class="logos" ref="logos">
     <div class="logos-slide" ref="logos-slide">
      <a target="_blank" href="https://my.gov.uz/"><img :src="part1" alt="img"></a>
@@ -39,7 +40,7 @@ import { part1, part2, part3, part4 } from "@/assets/static";
 .logos {
   overflow: hidden;
   padding: 60px 0;
-  background: rgba(255, 255, 255, 0.451);
+  background:#F0F4FA;
 
   display: flex;
   position: relative;
@@ -78,17 +79,21 @@ import { part1, part2, part3, part4 } from "@/assets/static";
 }
 
 .logos-slide a{
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 100px;
-  border-radius: 50%;
-  background-color: black;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .logos-slide img {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 </style>

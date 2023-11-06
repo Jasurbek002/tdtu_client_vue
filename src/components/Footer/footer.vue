@@ -17,50 +17,45 @@ import { navlinks } from "@/constants/navlink";
     class="w-full flex items-start justify-evenly"
   >
     <div class="Footer">
-      <div class="w-full flex items-center justify-evenly mb-4 ">
+    
+
+
+      <ul class="Footer__info">
+        <li class="flex items-center">
+          <img src="./../../assets/static/png/logo.png" class="w-[60px] h-[60px]" alt="">
+          <p class="text-[#1B1B1B] ml-2">Toshkent Davlat Texnika Universteti</p>
+        </li>
+        <li class="flex">
+          <a class="text-[#1B1B1B]" href="mailto:tstu_info@tdtu.uz"
+            >Email: tstu_info@tdtu.uz</a
+          >
+        </li>
+        <li >
+          <a class="text-[#1B1B1B]" href="tel:+99871 000 00 00">Tel: +99871 000 00 00</a>
+        </li>
+        <p class="text-xl font-medium">Ijtimoiy tarmoqlar</p>
+        <div class="w-full flex items-center justify-evenly mb-4 ">
         <SendOutlined   class="icon" />
         <InstagramOutlined class="icon"  />
         <YoutubeOutlined   class="icon"  />
         <FacebookOutlined  class="icon"  />
         <LinkedinOutlined  class="icon"  />
       </div>
-
-
-      <ul class="Footer__info">
-        <li class="text-white">
-          <p class="text-xl">Manzil: Toshkent shaxar universitet ko'chasi 2-uy</p>
-        </li>
-        <li class="text-white">
-          <a class="text-white" href="mailto:tstu_info@tdtu.uz"
-            >Email: tstu_info@tdtu.uz</a
-          >
-        </li>
-        <li class="text-white">
-          <a href="tel:+99871 000 00 00">Tel: +99871 000 00 00</a>
-        </li>
-        <li class="text-white">
-          <RouterLink to="/">TDTU fakultetlari</RouterLink>
-        </li>
-        <li class="text-white">
-          <RouterLink to="/">Ilmiy bo'lim haqida</RouterLink>
-        </li>
-        <li class="text-white">
-          <RouterLink to="/">Texnopark</RouterLink>
-        </li>
+        
       </ul>
-
-      <ul>
+      
+      <!-- <ul>
         <li v-for="(link,i) of navlinks" :key="i" class="text-white uppercase ">
           <RouterLink class="hover:text-slate-700" :to="link.to">{{ link.name }}</RouterLink>
         </li>
-      </ul>
+      </ul> -->
 
       <div class="Footer__map">
         <iframe
           class="Footer__map__item"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7750.169201656863!2d69.19970163012668!3d41.353714196145624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8c3da3c6e5c3%3A0x9882f2a6b7329d1d!2sTDTU!5e0!3m2!1sru!2s!4v1667632619793!5m2!1sru!2s"
-          width="350"
-          height="250"
+          width="550"
+          height="300"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
@@ -68,14 +63,17 @@ import { navlinks } from "@/constants/navlink";
     </div>
   </footer>
 </template>
-
+  
 <style scoped lang="scss">
 
 .icon{
-    color: white;
-    font-size: 40px;
+    color: #64748B;
+    font-size: 30px;
+    background-color: #d2d5db;
     border: none;
-    @apply  hover:scale-150 cursor-pointer transform ease-in-out duration-500; 
+    padding: 5px;
+    border-radius: 5px;
+    @apply  cursor-pointer transform ease-in-out duration-500; 
 }
 .Footer {
   width: 100%;
@@ -86,17 +84,20 @@ import { navlinks } from "@/constants/navlink";
   justify-content: space-evenly;
   padding: 20px 0;
   margin-bottom: 0px;
-  background-color: #1b6b50;
+  background-color: #ECF0F8;
   &__nav {
     margin: 0;
    
   }
 
   ul li {
-
+    @apply my-3;
+  p{
+    font-size: 18px;
+  }
     a{
-         font-size: 16px;
-        @apply text-white mt-3;
+         font-size: 18px;
+        @apply text-[#1B1B1B] mt-3;
     }
   }
 

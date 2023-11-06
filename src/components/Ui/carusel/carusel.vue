@@ -17,7 +17,7 @@ const bunner = ref<Bunner[]>([]);
 
 const localSilide = store.getnews;
 
-DataService.getData("/banner").then((res) => {
+DataService.getData("/banners").then((res) => {
   bunner.value = res.data.data;
 });
 
@@ -26,68 +26,37 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 </script>
 
 <template>
-  <div class="bg">
+  <div class="w-[700px] h-[500px] flex justify-center items-center">
     <a-carousel
+      class="w-full"
       :autoplay="true"
       easing="linear"
       dot-position="left"
       :loop="true"
     >
       <a-carousel-slide v-if="false" v-for="(silide, i) of bunner" :key="i">
-        <div class="box">
-          <div
-            class="flex lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px] rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center ssm:absolute sm:absolute md:absolute lg:static static z-20 md:backdrop-sepia-0 sm:backdrop-sepia-0 ssm:backdrop-sepia-0 ssm:bg-black/40 sm:bg-black/40 md:bg-black/40 lg:bg-transparent lg:backdrop-sepia-0"
-          >
-            <h1
-              class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 uppercase border-b-2 border-green-900 my-10"
-            >
-              {{ locale === "uz" ? silide?.title_uz : silide.title_en }}
-            </h1>
-            <p
-              class="text-sm ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 border-green-700 border-b-2 my-10"
-            >
-              {{ locale === "uz" ? silide?.text_uz : silide.text_en }}
-            </p>
-          </div>
-
-          <div
-            class="max-w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
-          >
-            <a-image
-              height="400px"
-              class="w-full h-[400px] rounded-md"
-              :src="`http://34.204.6.47:5000/${silide?.image}`"
-              alt="banner"
-            />
-          </div>
+        <div
+          class="w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
+        >
+          <a-image
+            class="w-[700px] h-[400px] rounded-md"
+            :src="`http://34.204.6.47:5000/${silide?.image}`"
+            alt="banner"
+          />
         </div>
       </a-carousel-slide>
       <a-carousel-slide v-else="localSilide" v-for="(silide, i) of localSilide">
-        <div class="box">
-          <div
-            class="flex lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px] rounded-xl max-w-[500px] h-11/12 p-5 flex-col items-center ssm:absolute sm:absolute md:absolute lg:static static z-20 md:backdrop-sepia-0 sm:backdrop-sepia-0 ssm:backdrop-sepia-0 ssm:bg-black/40 sm:bg-black/40 md:bg-black/40 lg:bg-transparent lg:backdrop-sepia-0"
-          >
-            <h1
-              class="text-xl ssm:text-white sm:text-white md:text-white lg:text-zinc-500 uppercase border-b-2 border-green-900 my-10"
-            >
-              {{ silide.title }}
-            </h1>
-            <p
-              class="text-sm ssm:text-white sm:text-white md:text-white lg:text-zinc-500 text-zinc-500 border-green-700 border-b-2 my-10"
-            >
-              {{ silide.text }}
-            </p>
-          </div>
-
-          <div
-            class="max-w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
-          >
-            <a-image
-              height="400px"
-              class="w-full h-[400px] rounded-md"
-              :src="silide.image"
-              alt="banner"
-            />
+        <div
+          class="w-[700px] relative rounded-md md:h-[500px] sm:h-[500px] ssm:h-[500px]"
+        >
+          <a-image
+            height="500px"
+            class="w-full h-[500px] rounded-md"
+            :src="silide.image"
+            alt="banner"
+          />
+          <div class="flex items-center justify-center absolute bottom-0 left-0 right-0 w-full h-[150px] bg-black/40 rounded-b-md">
+            <p class="text-xl text-white w-10/12">{{ silide.title }}</p>
           </div>
         </div>
       </a-carousel-slide>
@@ -99,6 +68,10 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 /* For demo */
 .ant-carousel :deep(.slick-slide) {
   height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 .bg {
@@ -110,7 +83,7 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 }
 .box {
   @apply w-full h-[500px] flex items-center justify-around relative;
-  background: rgb(255, 255, 255);
+  background: rgb(169, 166, 166);
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 25%,

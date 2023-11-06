@@ -4,7 +4,7 @@ const store = useThemaStore();
 </script>
 <template>
   <div
-    :class="`logos ${store.getThema ? 'bg-white' : 'bg-slate-700'}`"
+    :class="`logos ${store.getThema ? 'bg-[#F0F4FA]' : 'bg-slate-700'}`"
     ref="logos"
   >
     <div class="logos-slide" ref="logos-slide">

@@ -22,18 +22,6 @@ export const useDataStore = defineStore("dataStore", {
         text:"U yerda viloyat hokim o‘rinbosari, turizm  va madaniy me’ros bo‘limi boshlig‘i tomonidan kutib olindi",
         image:image2
       },
-      {
-        id:4,
-        title:"TDTU delegatsiya vakillari Yaponiyaga tashrifi nufuzli OTMlar e’tiborida…",
-        text:"Xabaringiz bor, yaqinda Toshkent davlat texnika universiteti delegatsiyasi Yaponiyaning bir qator universitetlarida bo’lib qaytishgan edi. ",
-        image:image3
-      },
-      {
-        id:5,
-        title:"Akademik Sayyora Rashidova tavalludining 80 yilligi",
-        text:"Anjumanda Toshkent davlat texnika universiteti rektori, prof. S.M.Turabdjanov ham ishtirok etdi. ",
-        image:image4
-      },
     ],
   }),
   getters: {
