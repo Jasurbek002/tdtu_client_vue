@@ -20,7 +20,7 @@ const changeLanguage = (lang: string) => {
 </script>
 
 <template>
-  <header :class="`topbar ${store.getThema ? 'bg-slate-100' : 'bg-black/75'}`">
+  <header :class="`topbar ${store.getThema ? 'bg-[#FFF]' : 'bg-black/75'}`">
     <div class="topbar__logo">
       <RouterLink to="/">
         <img

@@ -1,24 +1,30 @@
 import { defineStore } from "pinia";
 import { news1, news2, news3, news4 } from "@/assets/static";
-import { image1, image2 } from "@/assets/static/bunner";
+import { hakaton, image1, image2 } from "@/assets/static/bunner";
 export const resDataStore = defineStore("resStore", {
   state: () => ({
     data: [],
     bunner:[
       {
         id:1,
+        title:"TDTU Jizzax viloyati Sharof Rashidov tumaniga tashrif buyurdi",
+        text:"U yerda viloyat hokim o‘rinbosari, turizm  va madaniy me’ros bo‘limi boshlig‘i tomonidan kutib olindi",
+        image:hakaton
+      },
+      {
+        id:2,
         title:"Toshkent davlat texnika universiteti Turkiyaning yana bir universiteti bilan hamkorlikni o‘rnatyapti.",
         text:"Bugun Toshkent davlat texnika universitetida Sakaryo amaliy fanlar universiteti rektori Mehmet Saribiyik boshchiligidagi delegatsiya kutib olindi. ",
         image:image1
       },
       {
-        id:2,
+        id:3,
         title:"TDTU Jizzax viloyati Sharof Rashidov tumaniga tashrif buyurdi",
         text:"U yerda viloyat hokim o‘rinbosari, turizm  va madaniy me’ros bo‘limi boshlig‘i tomonidan kutib olindi",
         image:image2
       },
       {
-        id:3,
+        id:4,
         title:"TDTU Jizzax viloyati Sharof Rashidov tumaniga tashrif buyurdi",
         text:"U yerda viloyat hokim o‘rinbosari, turizm  va madaniy me’ros bo‘limi boshlig‘i tomonidan kutib olindi",
         image:image2

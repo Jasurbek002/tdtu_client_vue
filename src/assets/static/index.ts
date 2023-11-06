@@ -74,6 +74,7 @@ import tuz from "./unoptimized/tuz.png"
 
 import cbg from "./jpg/cbg.png"
 
+
 export {
   unrich,
   education,

@@ -8,6 +8,7 @@ import ShoppingRouter from "./modules/shopping";
 import NewspaperRouter from "./modules/newspaper";
 import Brm from "./modules/brm";
 import InnoRouter from "./modules/inno";
+import VideoRouter from "./modules/video"
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -20,6 +21,7 @@ const router = createRouter({
     ...NewspaperRouter,
     ...Brm,
     ...InnoRouter,
+    ...VideoRouter
   ],
 });
 
