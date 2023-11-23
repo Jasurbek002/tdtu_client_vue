@@ -8,10 +8,7 @@ import Row from "@/components/Ui/wrapper/Row.vue";
 import Col from "@/components/Ui/wrapper/Col.vue";
 import Navigation from "@/components/Ui/navigation/Navigation.vue";
 import Aos from "aos";
-import { storage } from "@/utils/firebase";
-import {ref } from "firebase/storage";
-const spaceRef = ref(storage, 'banners');
-console.log(spaceRef);
+
 
 Aos.init();
 </script>

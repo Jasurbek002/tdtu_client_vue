@@ -1,15 +1,9 @@
 <script setup lang="ts">
-import Row from "../Ui/wrapper/Row.vue";
-import Card from "../Ui/card/Card.vue";
 import DataService from "@/services/DataService";
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 import { useDataStore } from "@/stores/news";
 const { t, locale } = useI18n();
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
 const store = useDataStore();
 interface News {
   image: string;
