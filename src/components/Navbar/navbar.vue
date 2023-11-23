@@ -17,7 +17,7 @@ const { t, locale } = useI18n();
       <div
         data-aos="zoom-in-up"
         v-if="links.items.length !== 0"
-        class="modal w-[800px] p-8 hidden bg-[#F0F4FA] items-center flex-col rounded-sm opacity-0 absolute transform translate-y-[3px] duration-1000 ease-linear"
+        class="modal w-[800px] p-8 hidden bg-[#F0F4FA] items-start flex-col rounded-sm opacity-0 absolute transform translate-y-[3px] duration-1000 ease-linear"
       >
         <RouterLink
           class="item"

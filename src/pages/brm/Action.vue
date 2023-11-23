@@ -40,12 +40,12 @@ DataService.getData("/brm/data/all").then((res) => {
     >
       <img
         class="w-full h-[300px]"
-        :src="`https://science.tdtu.uz/${el.brm_image}`"
+        :src="`https://api.devnugget.uz/${el.brm_image}`"
         alt=""
       />
       <RouterLink
         class="text-xl hover:text-red-700"
-        :to="`/brm/action/view/${el.brm_id}`"
+        :to="`/brm/action/view/2-${el.brm_id}`"
         >{{ el.title_uz }}</RouterLink
       >
     </div>

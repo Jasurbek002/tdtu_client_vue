@@ -12,9 +12,9 @@ class DataService {
     }
   }
 
-  async getOneData(path:string,id: number) {
+  async getOneData(path:string,id: number|string) {
     try {
-      const {data}:any = api.get(`${path}/${id}`);
+      const data:any = api.get(`${path}/${id}`);
       return data
     } catch (error) {
       console.log(error);
