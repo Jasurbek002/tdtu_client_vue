@@ -48,7 +48,7 @@ const back = () => {
     <div v-else class="max-w-[1200px] h-[400px]">
       <img
         class="w-full h-full rounded shadow-white"
-        :src="`https://api.devnugget.uz/${data?.brm_image}`"
+        :src="`https://science.tdtu.uz/${data?.brm_image}`"
         alt=""
       />
     </div>
