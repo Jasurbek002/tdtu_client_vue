@@ -33,6 +33,6 @@ AOS.init();
       <RouterView />
     </LayoutVue>
     <Footer />
-    <My />
+    <!-- <My /> -->
   </Container>
 </template>

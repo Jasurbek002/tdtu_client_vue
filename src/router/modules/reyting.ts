@@ -19,4 +19,9 @@ export default [
     name: "green",
     component: () => import("@/pages/reyting/Greenmetric.vue"),
   },
+  {
+    path: "/reyting/national",
+    name: "green",
+    component: () => import("@/pages/reyting/National.vue"),
+  },
 ];

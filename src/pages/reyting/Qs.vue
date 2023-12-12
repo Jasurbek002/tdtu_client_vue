@@ -7,14 +7,19 @@ import { qs1, qs2 } from "@/assets/static";
   <Row label="Qs ranking">
     <List
       :image="qs1"
-      title="Islom Karimov nomidagi Toshkent davlat Texnika universiteti xalqaro miqyosda e’tirof etildi"
-      text="O‘zbekiston Respublikasi oliy ta’lim tizimini 2030 yilgacha rivojlantirish konsepsiyasida xalqaro e’tirof etilgan tashkilotlar (Quacquarelli Symonds World University. Times Higher Education yoki ARWU) reytingidagi birinchi 1000 ta oliy ta’lim muassasasi ro‘yxatiga kamida 10 ta oliy ta’lim muassasasini kiritish ko‘zda tutilgan. Bu borada Oliy va o‘rta maxsus ta’lim vazirligi hamda barcha oliy ta’lim muassasalari maqsadli rejalar asosida ish boshladi va «Rivojlanayotgan Yevropa va Markaziy Osiyo davlatlari oliy ta’lim muassasalarining (QS World University Rankings: Emerging Europe and Central Asia) 2022 yilgi reytingi» e’lon qilindi. Quvonarlisi, O‘zbekistonda QS mintaqaviy reytingida qayd etilgan universitetlar ketma-ket ikkinchi yil o‘z o‘rnini yanada mustahkamladi va yuqoriroq pog‘onalarga ko‘tarildi. Bu bugungi kunda «Yangi O‘zbekiston» oliy ta’lim tizimida samarali faoliyat yuritayotganidan, ta’limga bo‘lgan munosabatni oshirayotganidan dalolat beradi"
+      title="Toshkent davlat texnika universitetining QS Higher Education Summit Asia Pacific 2023 sammitidagi faol ishtiroki"
+      text="Toshkent davlat texnika universiteti (TDTU) 2023-yil 7-9-noyabr kunlari Malayziyaning Kuala-Lumpur shahrida bo‘lib o‘tgan QS Higher Education Summit Asia Pacific 2023 da faol ishtirok etdi .Sammitda universitet nomidan TDTU xalqaro reyting bo‘limi boshlig‘i Adhamjon Maxkamov va Raqamli ta’lim texnologiyalari markazi boshlig‘i Olimjon Maqsudovlar ishtirok etishdi. Ular qator tadbirlarda, jumladan, universitetlar ko‘rgazmasida ishtirok etib, TDTUning ilmiy-pedagogik faoliyatini namoyish etdi va xalqaro hamkorlikni mustahkamladi.
+Sammit davomida TDTU bir qancha nufuzli xalqaro OTMlar bilan ham memorandum va o‘zaro shartnomalar imzoladi. Ushbu shartnomalar TDTUning xalqaro faoliyatini kengaytirishga yordam beradi va talabalar va professor-o‘qituvchilarga dunyoning yetakchi universitetlari bilan hamkorlik qilish imkoniyatini beradi.
+"
       styles="bg-grenn"
     />
     <List
       :image="qs2"
-      title="Islom Karimov nomidagi Nufuzli xalqaro QS reyting tashkiloti 2023-yil uchun reyting natijalarini e’lon qildi"
-      text="2023-yil uchun QS Osiyo Universitetlar reytingi (QS Asia University Rankings 2023) da ilk bor respublikamizning 8 ta oliy ta’lim muassasasi TOP 1 000 talikdagi Osiyoning eng kuchli universitetlari qatoridan joy oldi. Xalqaro reyting tuzuvchi tashkilot Quacquarelli Symondsning bu yilgi reytingi bugungi kunga qadar eng kattasi hisoblanib, o‘z ichiga 760 ta eng kuchli Osiyo universitetlarini qamrab olgan. Shuningdek, reytingni shakllantirishdagi asosiy koʻrsatkichlar sifatida akademik va ish beruvchining obroʻsi, PhD darajasiga ega boʻlgan xodimlar soni hamda xalqaro talabalar ulushi kabi me’zonlar birinchi marotaba kiritildi. Qolaversa, QS Asia University 2023 reytingida Osiyo qit’asidagi universitetlar joylashuviga qarab mintaqaviy o‘rinlari ham belgilangan bo‘lib, mamlakatimizning yuqoridagi 8 ta oliy ta’lim muassasasi QS Markaziy Osiyo Universitetlar Reytingida ham munosib o‘rinlarni egalladi."
+      title=""
+      text="TDTU QS Higher Education Summit Asia Pacific 2023 sammitida e’lon qilingan QS Asia University Rankings 2024 reytingida ham o‘z o‘rnida sezilarli yaxshilanishga erishdi . TDTU barcha Osiyo universitetlari orasida oʻtgan yili 501-550-oʻrinni egalladi. O’tgan yili ushbu reytingda 551-600-o’rinni egallagan edi. TDTU Markaziy Osiyoda  29-o‘rindan 24-o‘ringa yuqoriladi.
+TDTU reytingidagi bu yaxshilanish universitetning ta’lim va ilmiy tadqiqotlarda yuksaklikka intilishidan dalolatdir. TDTU doimiy ravishda o'z dasturlari va jihozlarini yaxshilashga, butun dunyodan eng yaxshi talabalar va professor-o'qituvchilarni jalb qilishga intiladi.
+TDTUning QS Higher Education Summit Asia Pacific 2023 da faol ishtirok etishi va QS Asia University Rankings 2024 reytingida yaxshilanishi universitetning xalqaro obro‘si ortib borayotgani va o‘z talabalariga jahon andozalari darajasida ta’lim berishga intilishidan dalolat beruvchi muhim yutuqlardir.
+"
       styles="bg-grenn"
     />
   </Row>

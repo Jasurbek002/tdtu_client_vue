@@ -1,7 +1,8 @@
-import { techcal, cemic, edu, energya } from "@/assets/static";
+import { techcal, cemic, edu, energya, start, mash } from "@/assets/static";
 export const journal = [
   {
     id: 1,
+    link: "https://btstu.researchcommons.org/journal/",
     name: "Technical science and innovation",
     img: techcal,
     items: [
@@ -15,12 +16,15 @@ export const journal = [
     info: "1-yilda 4 marta nashr etiladi, maqolalar ingliz,rus,òzbek tilida chop etiladi",
   },
   {
+    link: "",
+
     name: "Ta'lim tizimida ijtimoiy-gumanitar fanlar",
     img: edu,
     items: ["1.Pedagogika va psixologiya", "2.Iqtisod"],
     info: "1-yilda 6 marta nashr etiladi, maqolalar ingliz,rus,òzbek tilida chop etiladi",
   },
   {
+    link: "",
     name: "Energiya resurs va tejash muammolari",
     img: energya,
     items: [
@@ -35,6 +39,7 @@ export const journal = [
     info: "1-yilda 4 marta nashr etiladi, maqolalar ingliz,rus,òzbek tilida chop etiladi",
   },
   {
+    link: "",
     name: "Chemical technology. Control and management",
     img: cemic,
     items: [
@@ -45,5 +50,20 @@ export const journal = [
       "5.Mechanical engineering",
     ],
     info: "1-yilda 6 marta nashr etiladi, maqolalar ingliz,rus,òzbek tilida chop etiladi",
+  },
+  {
+    link: "",
+    name: "Texnika yulduzlari",
+    img: start,
+    items: [],
+    info: "",
+  },
+
+  {
+    link: "",
+    name: "Konchilik mashinalari va texnologiyalari",
+    img: mash,
+    items: [],
+    info: "",
   },
 ];

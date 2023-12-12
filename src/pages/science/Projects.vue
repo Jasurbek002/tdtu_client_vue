@@ -5,63 +5,56 @@ import { EyeOutlined } from "@ant-design/icons-vue";
 import Item from "@/components/Ui/Item/Item.vue";
 import { ref } from "vue";
 import DataService from "@/services/DataService";
-import { resDataStore } from "@/stores/data";
 interface Project {
-  author_uz:string,
-  dedline: string,
-  loyha_id: number,
-  thema_en: string,
-  thema_uz: string
-  tip: string
+  author_uz: string;
+  dedline: string;
+  loyha_id: number;
+  thema_en: string;
+  thema_uz: string;
+  tip: string;
 }
 let projects = ref<Project[]>([]);
-const type = ref("international");
+const check = ref("");
 
+async function getProjects(type: string) {
+  DataService.getData("/loyha").then((res) => {
+     check.value = type
+    const data =
+      type === "all"
+        ? res.data.data
+        : res.data.data.filter((el: Project) => el.tip === type);
+    projects.value = data;
+  });
+}
 
-DataService.getData("/loyha").then((res) => {
-  const data = res.data.data
-  projects.value = data
-});
-
-console.log(projects.value);
-
-
-// const data = projects.value.filter((el) =>{
-//    el.tip === 'elementar'
-//    console.log(el);
-   
-//   })
-
-// console.log(data);
-
-
+getProjects("all");
 </script>
 
 <template>
   <Row label="Ilmiy loyihalar">
     <a-card
       data-aos="fade-right"
-      style="margin-top: 50px"
+      :style="`margin-top: 50px;background-color:${check === pro.type ? '#F1F4FA':'white'};`"
       v-for="(pro, i) of project"
       class="w-[300px]"
       :title="pro.name"
       :bordered="false"
     >
-      <!-- <RouterLink :to="pro.to"> -->
-        <a-button @click="type = 'elementar'" type="primary" size="large">
-          <template #icon>
-            <EyeOutlined />
-          </template>
-          more
-        </a-button>
-      <!-- </RouterLink> -->
+      <a-button @click="getProjects(pro.type)" type="primary" size="large">
+        <template #icon>
+          <EyeOutlined />
+        </template>
+        more
+      </a-button>
     </a-card>
 
     <Item
-    v-for="(el,i) of projects"
+    v-if="projects.length !== 0"
+      v-for="(el, i) of projects"
       :thema="el.thema_uz"
       :author="el.author_uz"
       :date="el.dedline"
     />
+    <div class="text-xl w-full text-center mt-28 text-green-600" v-else="projects.length === 0">Bunday turdagi loihalar hozircha mavjud emas</div>
   </Row>
 </template>

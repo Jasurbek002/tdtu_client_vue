@@ -13,6 +13,7 @@ Aos.init();
 
 <template>
   <Row label="IQTIDORLI TALABALAR BILAN ISHLASH BO'LIMI">
+    <Navigation :data="navlinks[4].items" />
     <Col>
       <Employe
         v-if="empStudents.length !== 0"
@@ -34,6 +35,6 @@ Aos.init();
       title="Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish boʼlimi:"
       :info="infoStudents"
     />
-    <Navigation :data="navlinks[4].items" />
+
   </Row>
 </template>

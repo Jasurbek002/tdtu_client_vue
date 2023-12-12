@@ -26,7 +26,7 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 </script>
 
 <template>
-  <div class="w-[700px] h-[500px] flex justify-center items-center">
+  <div class="w-[800px]  h-[500px] flex justify-center items-center">
     <a-carousel
       class="w-full"
       :autoplay="true"
@@ -36,10 +36,10 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
     >
       <a-carousel-slide v-if="false" v-for="(silide, i) of bunner" :key="i">
         <div
-          class="w-[700px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
+          class="w-[900px] rounded-md lg:h-[400px] md:h-[500px] sm:h-[500px] ssm:h-[500px]"
         >
           <a-image
-            class="w-[700px] h-[400px] rounded-md"
+            class="w-[900px] h-[400px] rounded-md"
             :src="`http://34.204.6.47:5000/${silide?.image}`"
             alt="banner"
           />
@@ -47,16 +47,19 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
       </a-carousel-slide>
       <a-carousel-slide v-else="localSilide" v-for="(silide, i) of localSilide">
         <div
-          class="w-[700px] relative rounded-md md:h-[500px] sm:h-[500px] ssm:h-[500px]"
+          class="w-[800px] bg-[var(--site-color)] relative rounded-md md:h-[500px] sm:h-[500px] ssm:h-[500px]"
         >
-          <a-image
+          <img
             height="500px"
-            class="w-full h-[500px] rounded-md"
+            class="w-full h-[500px] rounded-md "
             :src="silide.image"
             alt="banner"
           />
-          <div class="flex items-center justify-center absolute bottom-0 left-0 right-0 w-full h-[150px] bg-black/40 rounded-b-md">
+          <div class="flex flex-col items-center justify-center absolute bottom-0 left-0 right-0 w-full h-[150px] bg-black/40 rounded-b-md">
             <p class="text-xl text-white w-10/12">{{ silide.title }}</p>
+            <RouterLink class="w-[130px] h-[50px] flex items-center text-xl justify-center ml-auto mr-5 rounded-md bg-green-500 text-white" :to="`/news/${silide.id}`">
+              Batafsil..
+            </RouterLink>
           </div>
         </div>
       </a-carousel-slide>

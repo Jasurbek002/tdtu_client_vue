@@ -4,14 +4,14 @@ import { journal } from "@/constants/journal";
 import { ArrowRightOutlined } from "@ant-design/icons-vue";
 </script>
 <template>
-  <Row label="Ilmiy Jurnallar">
+  <Row styles="bg-white" label="Ilmiy Jurnallar">
     <div v-for="(el, i) of journal" :key="i" class="card">
       <img class="w-full h-full" :src="el.img" alt="img" />
       <div class="modal">
         <p class="text-white text-sm font-medium">{{ el.name }}</p>
-        <RouterLink class="px-10 py-2 bg-white rounded" :to="``">
+        <a class="px-10 py-2 bg-white rounded" target="_blank" :href="el.link">
           <ArrowRightOutlined class="text-2xl" />
-        </RouterLink>
+        </a>
       </div>
     </div>
   </Row>

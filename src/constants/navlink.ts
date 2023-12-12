@@ -5,6 +5,7 @@ export const navlinks = [
     to: "/",
     items: [],
   },
+  
   {
     id: 2,
     name: "doctarate",
@@ -64,10 +65,10 @@ export const navlinks = [
         name: "rayting.the",
         to: "/reyting/the",
       },
-      {
-        name: "rayting.national",
-        to: "/reyting/national",
-      },
+        // {
+        //   name: "rayting.national",
+        //   to: "/reyting/national",
+        // },
       {
         name: "rayting.grc",
         to: "/reyting/green",
@@ -147,9 +148,15 @@ export const navlinks = [
     ],
   },
   {
-    id: 9,
-    name: "inno",
-    to: "/inno",
+    id: 1,
+    name: "media",
+    to: "/media",
     items: [],
   },
+  // {
+  //   id: 9,
+  //   name: "inno",
+  //   to: "/inno",
+  //   items: [],
+  // },
 ];

@@ -26,14 +26,25 @@ const localeNews = store.getnews;
       v-for="(el, i) of localeNews"
       :data="el"
       :key="i"
-      class="w-[500px] h-[160px] bg-white shadow flex items-center p-2 my-2 rounded-md justify-between"
+      class="w-[500px]  h-[160px] bg-white shadow flex items-center p-2 my-2 rounded-md justify-between"
     >
-    <img class="w-[180px] mr-5 h-[140px] rounded-md" :src="el.image" alt="img/news">
-    <div>
-      <h2>{{ el.title.slice(0,60) }}...</h2>
-      <p>{{ el.text.slice(0,70) }}...</p>
+      <img
+        class="w-[180px] mr-5 h-[140px] rounded-md"
+        :src="el.image"
+        alt="img/news"
+      />
+      <div>
+        <h2>{{ el.title.slice(0, 60) }}...</h2>
+        <p>{{ el.text.slice(0, 70) }}...</p>
+        <RouterLink
+        class="w-[90px] h-[35px] flex items-center text-sm justify-center ml-auto mr-5 rounded-md bg-green-500 text-white"
+        :to="`/news/${1}`"
+      >
+        Batafsil...
+      </RouterLink>
+      </div>
+      
     </div>
-  </div>
   
   </div>
 </template>
@@ -49,6 +60,4 @@ const localeNews = store.getnews;
     rgba(255, 255, 255, 1) 22%
   );
 }
-
-
 </style>

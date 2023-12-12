@@ -3,7 +3,7 @@ import { useThemaStore } from "@/stores/thema";
 const store = useThemaStore();
 </script>
 <template>
-  <div
+  <RouterLink to="/inno/info"
     :class="`logos ${store.getThema ? 'bg-[#F0F4FA]' : 'bg-slate-700'}`"
     ref="logos"
   >
@@ -25,7 +25,7 @@ const store = useThemaStore();
         f.-m.f.d., prof. Sh.Nematov) loyixasi doirasida yaratildi
       </p>
     </div>
-  </div>
+  </RouterLink>
 </template>
 
 <style scoped>

@@ -16,6 +16,7 @@ Aos.init();
   <Row
     label="ILMIY-INAVATSION ISHLANMALARNI TIJORATLASHTIRISH BO'LIMI"
   >
+  <Navigation :data="navlinks[5].items" />
     <Col>
       <Employe
         v-if="empShopping.length !== 0"
@@ -37,6 +38,6 @@ Aos.init();
       title="Toshkent davlat texnika universteti Ilmiy-inavatsion ishlanmalarni tijoratlashtirish bo'limi quyidagi vazifalarni bajaradi:"
       :info="infoShopping"
     />
-    <Navigation :data="navlinks[5].items" />
+
   </Row>
 </template>

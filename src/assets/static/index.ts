@@ -39,19 +39,20 @@ import techcal from "./unoptimized/technical.jpg";
 import cemic from "./unoptimized/chemical.png";
 import energya from "./unoptimized/energy.jpg";
 import edu from "./unoptimized/tailm.jpg";
-
-// qs 
-import qs1 from "./jpg/qs.jpg"
-import qs2 from "./jpg/qs2.jpg"
+import start from "./png/stars.png";
+import mash from "./png/mash.jpg";
+// qs
+import qs1 from "./png/qs1.jpg";
+import qs2 from "./png/qs2.jpg";
 
 // the
-import the1 from "./jpg/the1.jpg"
+import the from "./png/the.jpg";
 // national
-import national1 from "./jpg/national1.jpg"
-import national2 from "./jpg/national2.jpg"
-import national3 from "./jpg/national3.jpg"
+import national1 from "./jpg/national1.jpg";
+import national2 from "./jpg/national2.jpg";
+import national3 from "./jpg/national3.jpg";
 // green
-import green from "./png/green.png"
+import green from "./png/green.png";
 
 // brm
 import unrich from "./unoptimized/qashshoq.png";
@@ -70,10 +71,9 @@ import partnership from "./unoptimized/partnershib.png";
 import people from "./unoptimized/peple.png";
 import piece from "./unoptimized/piece.png";
 import responsible from "./unoptimized/responsible.png";
-import tuz from "./unoptimized/tuz.png"
+import tuz from "./unoptimized/tuz.png";
 
-import cbg from "./jpg/cbg.png"
-
+import cbg from "./jpg/cbg.png";
 
 export {
   unrich,
@@ -92,7 +92,7 @@ export {
   people,
   piece,
   responsible,
-  tuz
+  tuz,
 };
 
 export {
@@ -123,13 +123,15 @@ export {
   techcal,
   cemic,
   edu,
+  start,
+  mash,
   energya,
   qs1,
   qs2,
-  the1,
+  the,
   national1,
   national2,
   national3,
   green,
-  cbg
+  cbg,
 };

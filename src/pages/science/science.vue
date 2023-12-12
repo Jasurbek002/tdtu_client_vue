@@ -19,6 +19,7 @@ Aos.init();
   <Row
     label="ILMIY-TADQIQOT QISMI"
   >
+  <Navigation :data="(navlinks[2].items)"/>
     <Col>
       <Employe
         v-if="empScience.length !== 0"
@@ -40,6 +41,6 @@ Aos.init();
       title="Quyidagilar Ilmiy tadqiqot qismining asosiy vazifalari hisoblanadi:"
       :info="infoScience"
     />
-    <Navigation :data="(navlinks[2].items)"/>
+
   </Row>
 </template>

@@ -112,7 +112,7 @@ const changeLanguage = (lang: string) => {
     }
   }
   &__title {
-    font-size: 75px;
+    font-size: 40px;
     // @apply text-grenn font-bold uppercase md:hidden lg:flex sm:hidden ssm:hidden;
   }
   &__togglebar {

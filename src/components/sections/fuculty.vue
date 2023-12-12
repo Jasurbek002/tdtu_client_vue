@@ -11,11 +11,13 @@ const {t} = useI18n();
         <h1 class="text-2xl font-bold text-[#010039] uppercase w-11/12 mx-auto rounded-md text-start p-1 ">{{ t('fukulty') }}</h1>
     <div class="fuculty w-11/12 justify-evenly my-5 py-10">
       
-        <div 
+        <div
+        
+        target="_blank"
         data-aos="flip-left"
         :style="{'background-image':`url(${fucul?.icon})`}"
-        :class="`card bg-[url(${fucul?.icon})] flex items-center justify-center my-5 h-[200px] sm:w-[300px] ssm:w-[300px] rounded-lg shadow-2xl p-5`" v-for="(fucul,i) of faculty" :key="i">
-            <div class="w-full h-full absolute rounded-lg"></div>
+        :class="`card bg-[url(${fucul?.icon})] flex items-center justify-center my-5 h-[200px] sm:w-[300px] ssm:w-[300px] transform duration-500 rounded-lg shadow-2xl p-5`" v-for="(fucul,i) of faculty" :key="i">
+            <a target="_blank" :href="fucul.link"  class="w-full h-full absolute rounded-lg"></a>
             <p class="text-xl font-bold  uppercase text-white   text-center">{{ fucul.name }}</p>
         </div>
 
@@ -38,7 +40,7 @@ const {t} = useI18n();
     cursor: pointer;
     transition: all 3s linear 0s;
 }
-.card div{
+.card a{
     background-color: rgba(0, 0, 0, 0.619);
 }
 .card:hover{

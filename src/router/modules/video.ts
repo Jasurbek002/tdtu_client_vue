@@ -1,7 +1,7 @@
 export default [
     {
-        path: "/videos",
-        name: "videos",
+        path: "/media",
+        name: "media",
         component: () => import("@/pages/videos/video.vue"),
-      }
+    }
 ]

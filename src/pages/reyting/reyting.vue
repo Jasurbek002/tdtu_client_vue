@@ -15,6 +15,7 @@ Aos.init();
 
 <template>
   <Row :label="t('rayting.name')">
+    <Navigation :data="navlinks[3].items" />
     <Col>
       <Employe
         v-if="empReyting.length !== 0"
@@ -36,6 +37,6 @@ Aos.init();
       :title="t('rayting.title')"
       :info="infoReyting"
     />
-    <Navigation :data="navlinks[3].items" />
+   
   </Row>
 </template>

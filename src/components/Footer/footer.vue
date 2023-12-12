@@ -26,12 +26,12 @@ import { navlinks } from "@/constants/navlink";
           <p class="text-[#1B1B1B] ml-2">Toshkent Davlat Texnika Universteti</p>
         </li>
         <li class="flex">
-          <a class="text-[#1B1B1B]" href="mailto:tstu_info@tdtu.uz"
-            >Email: tstu_info@tdtu.uz</a
+          <a class="text-[#1B1B1B]" href="https://webmail.tdtu.uz/"
+            >Email: https://webmail.tdtu.uz/</a
           >
         </li>
         <li >
-          <a class="text-[#1B1B1B]" href="tel:+99871 000 00 00">Tel: +99871 000 00 00</a>
+          <a class="text-[#1B1B1B]" target="_blank" href="tel:+998712071464">Tel: +998 71 207-14-64, +998 71 246-92-36</a>
         </li>
         <p class="text-xl font-medium">Ijtimoiy tarmoqlar</p>
         <div class="w-full flex items-center justify-evenly mb-4 ">

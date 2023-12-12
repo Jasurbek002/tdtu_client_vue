@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ArrowRightOutlined  }  from "@ant-design/icons-vue";
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 
-export interface Nav {
+interface Nav {
   name: string;
   to: string;
 }
@@ -20,7 +22,7 @@ const { data } = defineProps({
       :key="i"
       :to="nav?.to"
     >
-      <p class="mr-3 my-auto">{{ nav?.name }}</p>
+      <p class="mr-3 my-auto">{{ t(`${nav.name}` )}}</p>
       <ArrowRightOutlined />
     </RouterLink>
   </div>

@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import Row from "@/components/Ui/wrapper/Row.vue";
 import List from "@/components/Ui/List/List.vue";
-import { the1 } from "@/assets/static";
+import { the } from "@/assets/static";
 </script>
 <template>
   <Row label="THE ranking">
     <List
-      :image="the1"
-      title="Uzbekistonning 30 ta OTM nufuzli halqaro reytingdan o'rin oldi"
-      text="Kuvonarlisi, birinchi bor yurtimizning30 ta oliy ta'lim nima uchun ushbu reytingdan o'rin egalladi. Ma'lumot uchun, 2021 yilda ushbu reyting 10 ta oliy talim olishi kirgan edi. Otgan yili ushbu reytingda 94 ta davlatdan 1000 ha yakin oliy ta'lim ishtirok etgan bulsa, 2022 yilda 110 ta davlatdan 1500 dan ortiq oliy ta'lim ishtirok etgan."
+      :image="the"
+      title="2023-yil 22-iyun kuni dunyoning nufuzli Times Higher Education reyting tashkiloti Gonkong universitetida (Xitoy) boʻlib oʻtdi"
+      text="2023-yil 22-iyun kuni dunyoning nufuzli Times Higher Education reyting tashkiloti Gonkong universitetida (Xitoy) boʻlib oʻtgan THE Osiyo universitetlari sammitida 2023 yilgi Osiyo universitetlari reytingining kutilgan natijalarini eʼlon qildi. “Times Higher Education Asia University Rankings – 2023” deb nomlanuvchi reyting oliy ta’lim bo’yicha Osiyodagi yetakchi universitetlarini sifatli ta’lim berish, ilmiy-tadqiqot ishlarini samaradorligi hamda ta’lim va ilmiy tadqiqot ishlari bo’yicha xalqaro hamkorlikka asoslangan holda holis baholaydi.
+Bu yilgi reytingga kiritilgan nufuzli universitetlar qatorida Toshkent davlat texnika universiteti ham “reportyor” maqomiga sazovor bo‘ldi. Bu e’tirof universitetning kelgusida  ta’lim va ilmiy tadqiqot ishlari bo’yicha xalqaro hamkorlik hamda yuqori iqtidor egalarini tarbiyalash va akademik ilg‘orlikni rag‘batlantirishga bo‘lgan harakatlari natijasi sifatida qarash mumkin."
       styles="bg-grenn"
     />
-
   </Row>
 </template>

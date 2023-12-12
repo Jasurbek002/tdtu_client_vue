@@ -17,6 +17,7 @@ Aos.init();
   <Row
     label="ILMIY–TADQIQOTLAR INNOVATSIYALAR VA PEDAGOGIK KADRLARNI TAYYORLASH BO’LIMI"
   >
+  <Navigation :data="navlinks[1].items" />
     <Col>
       <Employe
         v-if="empDoctarant.length !== 0"
@@ -38,6 +39,6 @@ Aos.init();
       title="Ilmiy–tadqiqotlar innovatsiyalar va pedagogik kadrlarni tayyorlash bo’limi quydagi vazifalarni bajaradi:"
       :info="infoDoctarant"
     />
-    <Navigation :data="navlinks[1].items" />
+   
   </Row>
 </template>
