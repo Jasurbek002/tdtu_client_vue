@@ -2,66 +2,37 @@
 import Row from '@/components/Ui/wrapper/Row.vue';
 </script>
 <template>
-<Row label="Start-up loyihalar">
-    <p className='w-11/12 bg-white p-5 text-grenn text-xl'>
-                Ахборот-коммуникация технологиялари соҳасида ИТ-таълим хизматларини кўрсатиш,
-                дастурий маҳсулотлар ишлаб чиқиш ҳамда экспортга йўналтириш бўйича стартап лойиҳалар”
-                танловига қайта эълон берилганлигини маълум қиламиз!
-            </p>
-            <p className='w-11/12 bg-white p-5 text-grenn my-5'>
-                Мазкур танлов Ўзбекистон Республикаси Президентининг 2022 йил 28 августдаги
-                “2022-2023 йилларда ахборот-коммуникатсия технологиялари соҳасини янги босқичга
-                олиб чиқиш чора-тадбирлари тўғрисида” ПҚ-357-сон қарори 8-банди ҳамда Вазирлар
-                Маҳкамасининг 2020 йил 9 мартдаги “Илмий-тадқиқот ва инновацион фаолиятни
-                ривожлантиришнинг норматив-ҳуқуқий базасини янада такомиллаштириш чора-тадбирлари
-                тўғрисида” 133-сон қарори 2-иловасига мувофиқ ташкил этилади.
-            </p>
-            <p className='w-11/12 bg-white p-5 text-grenn my-5'>
-                Танловда иштирок этувчи “стартап” лойиҳа ташаббускорлари аризалари 2022 йил 1 октябрдан 26 ноябрга қадар қабул қилинади;
+	<Row label="Start-up loyihalar">
+		<p className="w-11/12 bg-white p-5 text-grenn text-xl">
+			Axborot-kommunikatsiya texnologiyalari sohasida IT-ta'lim xizmatlarini saqlash, dasturiy ta'minotlar ishlab chiqish hamda eksportga yo'naltirish ishlari startap loyihalar” tanloviga qayta e'lon
+			qilinganligini ma'lum qilamiz!
+		</p>
+		<p className="w-11/12 bg-white p-5 text-grenn my-5">
+			Mazkur tanlov O'zbekiston Respublikasi Prezidentining 2022 yil 28 avgustdagi “2022-2023 yillarda axborot-kommunikatsion texnologiyalari sohasini yangi bosqinchiga olib chiqib, chora-tadbirlari
+			paydo bo'ldi”
+		</p>
+		<p className="w-11/12 bg-white p-5 text-grenn my-5">
+			Tanlovda ishtirok etuvchi “startap” loyiha qo'riqchilari ko'rsatmalari 202 yil 1 oktyabrdan 26 noyabrga qadar qabul qilish; “startap” loyiha harakatkori – yuridik shaxsni tiklash va ishlab
+			chiqaruvchilari sakkiz yoshga to'lgan va o'ttiz yoshdan oshmagan investitsiya lyoyihasini amalga o'rnatish istagini bildirgan O'zbekistonga kirishlari; “startap” loyiha harakatkori – startap
+			loyiha asoschilaridan kirishi (kompaniya tomonidan asosay ulushdorlardan boshqarishi) kerak; “startap” loyiha harakatkori (1 ta ishtirokchi) 1 ta loyiha bilan ishtirok etishi mumkin; "boshlash"
+			loyihalar asosida tayyor dastur, oshiy burish, xizmatlar va texnologiyalarni yaratish va zig'irchilik moliya qilishning eng ko'p vaqt davomida 1 dan oshmasligi kerak. Tanlov qazib olish uchun
+			mo'ljallangan moliyaga tavsiyalar uchun star loyihalarga 1 milliard so'mga ishlab topiladi.
+		</p>
+		<p className="w-11/12 bg-white p-5 text-grenn my-5">
+            Arizalarni yuridik va jismoniy shaxslarni taqdim etishi mumkin (Arizalar jismoniy shaxsni yaratish imkonini yaratishda – looyi Innovasion rivojlanish texnikasi harakatini saqlash moliya rivojlantirishga)
+tavsiyalar xodimlaridan yuridik korxona ochish shaxsiy xavfsizlik xati qo'shimcha qilinishi shart).
+		</p>
 
-                “стартап” лойиҳа ташаббускори – юридик шахс мақомидаги раҳбар ва таъсисчилари ўн саккиз ёшга тўлган ва ўттиз ёшдан ошмаган инвестиция лойиҳасини амалга ошириш истагини билдирган Ўзбекистон Республикаси фуқаролари;
-
-                “стартап” лойиҳа ташаббускори – стартап лойиҳа асосчиларидан бўлиши (компания бўлган тақдирда асосий улушдорлардан бўлиши) лозим;
-
-                “стартап” лойиҳа ташаббускори (1 та иштирокчи) 1 та лойиҳа билан иштирок этиши мумкин;
-
-                “стартап” лойиҳалар асосида тайёр маҳсулот, дастурий маҳсулот, хизматлар ва технологиялар яратишнинг ҳамда вазирлик томонидан молиялаштиришнинг энг кўп муддати 1 йилдан ошмаслиги лозим.
-                Танлов натижаларига кўра молиялаштиришга тавсия этилган стартап лойиҳаларга 1 миллиард сўмгача бўлган маблағ ажратилади.
-            </p>
-            <p className='w-11/12 bg-white p-5 text-grenn my-5'>
-            Аризаларни юридик ва жисмоний шахслар тақдим этиши мумкин 
-            (Аризалар жисмоний шахс томонидан тақдим этилган тақдирда – лойиҳа
-             Инновацион ривожланиш вазирлиги Ҳайъати томонидан молиялаштиришга
-               тавсия этилгандан сўнг юридик корхона очиш тўғрисида кафолат
-                хати илова қилиниши шарт).
-            </p>
-
-            <div className='w-full flex items-center justify-evenly flex-wrap py-14 mt-4 relative'>
-            <h1 className='text-center text-3xl mb-14 absolute top-0 py-2 px-5 bg-grenn text-white rounded-3xl'>Ustuvor yo'nalishlar</h1>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        	Рақамли ҳокимият
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-            Ақлли тиббиёт  
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        	Ақлли транспорт 
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        	Ақлли таълим 
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-            Ақлли қишлоқ хўжалиги 
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        	Ақлли энергетика тизими  
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        	Ақлли маҳалла  
-            </div>
-            <div className='w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2'>
-        		UzbekGidroEnergo stipendiyasi 
-            </div>
-        </div>
-</Row>
+		<div className="w-full flex items-center justify-evenly flex-wrap py-14 mt-4 relative">
+			<h1 className="text-center text-3xl mb-14 absolute top-0 py-2 px-5 bg-grenn text-white rounded-3xl">Ustuvor yo'nalishlar</h1>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Рақамли ҳокимият</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqlli tibbiyyot</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqlli transport</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqlli ta'lim</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqlli qishloq xo'jaligi</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqlli energiya tizimi</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">Aqilli maxalla</div>
+			<div className="w-96 h-20 shadow-myshadow flex items-center justify-center border-2 border-white hover:border-blue m-2">UzbekGidroEnergo stipendiyasi</div>
+		</div>
+	</Row>
 </template>

@@ -10,6 +10,7 @@ import oybek from "./oybek.jpg";
 import shagzod from "./shagzod.jpg";
 import timur from "./timur.jpg";
 import umid from "./umid.jpg";
+import jora from "./jora.jpg";
 
 export {
   jamal,
@@ -24,4 +25,5 @@ export {
   shagzod,
   oybek,
   kabul,
+  jora,
 };

@@ -53,6 +53,7 @@ import national2 from "./jpg/national2.jpg";
 import national3 from "./jpg/national3.jpg";
 // green
 import green from "./png/green.png";
+import green2 from "./jpg/greenmetirc.jpg"
 
 // brm
 import unrich from "./unoptimized/qashshoq.png";
@@ -73,7 +74,8 @@ import piece from "./unoptimized/piece.png";
 import responsible from "./unoptimized/responsible.png";
 import tuz from "./unoptimized/tuz.png";
 
-import cbg from "./jpg/cbg.png";
+import belorus1 from "./png/belarus1.jpg";
+import belorus2 from "./png/belarus2.jpg";
 
 export {
   unrich,
@@ -133,5 +135,7 @@ export {
   national2,
   national3,
   green,
-  cbg,
+  belorus1,
+  belorus2,
+  green2
 };

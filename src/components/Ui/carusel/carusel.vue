@@ -26,7 +26,7 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
 </script>
 
 <template>
-  <div class="w-[800px]  h-[500px] flex justify-center items-center">
+  <div class="w-[800px] h-[500px] flex justify-center items-center">
     <a-carousel
       class="w-full"
       :autoplay="true"
@@ -51,13 +51,18 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
         >
           <img
             height="500px"
-            class="w-full h-[500px] rounded-md "
+            class="w-full h-[500px] rounded-md"
             :src="silide.image"
             alt="banner"
           />
-          <div class="flex flex-col items-center justify-center absolute bottom-0 left-0 right-0 w-full h-[150px] bg-black/40 rounded-b-md">
+          <div
+            class="flex flex-col items-center justify-center absolute bottom-0 left-0 right-0 w-full h-[150px] bg-black/40 rounded-b-md"
+          >
             <p class="text-xl text-white w-10/12">{{ silide.title }}</p>
-            <RouterLink class="w-[130px] h-[50px] flex items-center text-xl justify-center ml-auto mr-5 rounded-md bg-green-500 text-white" :to="`/news/${silide.id}`">
+            <RouterLink
+              class="w-[130px] h-[50px] flex items-center text-xl justify-center ml-auto mr-5 rounded-md bg-green-500 text-white"
+              :to="`/news/${silide.id}`"
+            >
               Batafsil..
             </RouterLink>
           </div>
@@ -77,13 +82,13 @@ const dotPosition = ref<CarouselProps["dotPosition"]>("top");
   align-items: center;
   overflow: hidden;
 }
-.bg {
+/* .bg {
   background-image: url("@/assets/static/jpg/cbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   /* min-width: 2000px; */
-}
+//} 
 .box {
   @apply w-full h-[500px] flex items-center justify-around relative;
   background: rgb(169, 166, 166);

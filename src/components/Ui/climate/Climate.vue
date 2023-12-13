@@ -53,7 +53,7 @@ const back = () => {
       />
     </div>
     <p
-      v-if="item.length > 2"
+      v-if="item.length < 2"
       class="text-xl font-normal w-10/12 text-white my-5"
     >
       {{ data?.text }}

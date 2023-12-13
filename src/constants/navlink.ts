@@ -42,10 +42,10 @@ export const navlinks = [
         name: "science.project",
         to: "/science/projects",
       },
-      {
-        name: "science.lob",
-        to: "/science/laboratory",
-      },
+      // {
+      //   name: "science.lob",
+      //   to: "/science/laboratory",
+      // },
       {
         name: "science.obj",
         to: "/science/objects",
@@ -107,10 +107,10 @@ export const navlinks = [
         name: "shooping_item.start",
         to: "/shopping/startup",
       },
-      {
-        name: "shooping_item.list",
-        to: "/shopping/problems",
-      },
+      // {
+      //   name: "shooping_item.list",
+      //   to: "/shopping/problems",
+      // },
     ],
   },
   {

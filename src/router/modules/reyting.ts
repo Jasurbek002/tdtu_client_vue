@@ -21,7 +21,7 @@ export default [
   },
   {
     path: "/reyting/national",
-    name: "green",
+    name: "national",
     component: () => import("@/pages/reyting/National.vue"),
   },
 ];
