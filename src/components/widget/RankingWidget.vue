@@ -9,20 +9,20 @@ import { renking } from "@/assets/static/reyting";
   </h1>
   <div class="logos" ref="logos">
     <div class="logos-slide" ref="logos-slide">
-      <RouterLink
-        to="/reyting"
+      <a
+        :href="el.link"
         v-for="(el, i) of renking"
         key="i"
-        ><img :src="el" alt="img"
-      /></RouterLink>
+        ><img :src="el.image" alt="img"
+      /></a>
     </div>
     <div class="logos-slide" ref="logos-slide">
-      <RouterLink
-        to="/reyting"
+      <a
+        :href="el.link"
         v-for="(el, i) of renking"
         key="i"
-        ><img :src="el" alt="img"
-      /></RouterLink>
+        ><img :src="el.image" alt="img"
+      /></a>
     </div>
   </div>
 </template>

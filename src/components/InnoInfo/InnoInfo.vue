@@ -60,7 +60,7 @@ import Row from "@/components/Ui/wrapper/Row.vue";
     </p>
     <p class="w-[1230px] text-slate-600 text-justify text-xl">
       Anjuman yakunida Toshkent davlat texnika universiteti Belarusning Belarus
-      davlat informatika va radio qurilmalar universiteti, Belarus milliy
+      davlat informatika va Radio Qurilmalar Universiteti, Belarus milliy
       texnika universiteti va Belarus davlat iqtisodiyot universitetlari bilan
       hamkorlik shartnomalarini imzoladi.
     </p>

@@ -5,7 +5,7 @@ const {styles} = defineProps({
 })
 </script>
 <template>
-    <div :class="` ${size} flex items-center flex-col ${styles}`">
+    <div :class="`w-full ${size} flex items-center flex-col ${styles}`">
           <slot />
     </div>
 </template>

@@ -11,7 +11,7 @@ import { DownloadOutlined } from "@ant-design/icons-vue";
       title="ILMIT-TEXNIK kengash nizomi"
       :bordered="false"
     >
-      <a-button  type="primary" size="large" target="_blanck" href="https://science.tdtu.uz/techkengash.pdf">
+      <a-button  type="primary" size="large" target="_blanck" href="https://science.tdtu.uz/technizom.pdf">
         <template #icon>
           <DownloadOutlined />
         </template>
@@ -23,7 +23,7 @@ import { DownloadOutlined } from "@ant-design/icons-vue";
       title="ILMIT-TEXNIK kengash tarkibi"
       :bordered="false"
     >
-      <a-button type="primary" size="large" target="_blanck" href="https://science.tdtu.uz/technizom.pdf">
+      <a-button type="primary" size="large" target="_blanck" href="https://science.tdtu.uz/techkengash.pdf">
         <template #icon>
           <DownloadOutlined />
         </template>
