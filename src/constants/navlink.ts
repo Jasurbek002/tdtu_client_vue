@@ -146,6 +146,10 @@ export const navlinks = [
 				name: 'brm_item.politic',
 				to: '/brm/policie',
 			},
+			{
+				name: 'Green Actions',
+				to: '/brm/global',
+			},
 		],
 	},
 	{

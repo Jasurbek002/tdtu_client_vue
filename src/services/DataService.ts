@@ -1,4 +1,4 @@
-import { api } from '@/utils/api';
+import { api, newApi } from '@/utils/api';
 
 class DataService {
 	constructor() {}
@@ -15,6 +15,24 @@ class DataService {
 		try {
 			const data: any = api.get(`${path}/${id}`);
 			return data;
+		} catch (error) {
+			console.log(error);
+		}
+	}
+
+	async getPostsByCategory(categoryId: number) {
+		try {
+			const responce = await newApi.get(`/posts/by-category/${categoryId}`);
+			return responce.data;
+		} catch (error) {
+			console.log(error);
+		}
+	}
+
+	async getOnePost(postId: number) {
+		try {
+			const responce = await newApi.get(`/posts/${postId}`);
+			return responce.data;
 		} catch (error) {
 			console.log(error);
 		}
