@@ -17,6 +17,9 @@ export interface IPost {
 	sub_titles: SubTitle[];
 	image: Image;
 	category: Category;
+	file?: {
+		url: string;
+	};
 }
 
 export interface Name {
